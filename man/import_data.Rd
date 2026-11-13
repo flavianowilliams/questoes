@@ -4,7 +4,7 @@
 \alias{import_data}
 \title{Database}
 \usage{
-import_data(path)
+import_data()
 }
 \arguments{
 \item{path}{caminho para o base de dados}

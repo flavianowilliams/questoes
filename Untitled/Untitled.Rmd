@@ -2,74 +2,59 @@
 title: "Tutorial"
 output: learnr::tutorial
 runtime: shiny_prerendered
+format:
+  html:
+    toc: true
+    embed-resources: true
+    self-contained-math: true
+    include-in-header:
+      text: |
+        \usepackage[utf8]{inputenc}
+        \usepackage[portuguese]{babel}
+        \usepackage{multicol}
+        \usepackage{graphicx}
+        \usepackage{amsmath}
+        \usepackage{xcolor}
+        \usepackage{tikz,pgfplots,tikz-3dplot,bm}
+        \usepackage{circuitikz}
+        \usepackage{tkz-base}
+        \usepackage{tkz-fct}
+        \usepackage{tkz-euclide}
+        \usepackage[a4paper, portrait, margin=2cm, includefoot]{geometry}
+        \usepackage[output-decimal-marker={,}]{siunitx}
+        \usetikzlibrary{arrows,3d,calc,automata,positioning,shadows,math,fit,shapes}
+        \usetikzlibrary{patterns,calc,hobby,optics}
+        \tikzset{>=stealth, thick, global scale/.style={scale=#1,every node/.style={scale=#1}}}
+        \tikzset{midarrow/.style={postaction={decorate,decoration={markings,mark=at position .5 with {\arrow[#1]{stealth}}}}}}
+        \tikzset{midarrowinv/.style={postaction={decorate,decoration={markings,mark=at position .5 with {\arrowreversed[#1]{stealth}}}}}}
+        \setlength{\columnsep}{1cm}
+        \makeindex
 ---
 
 ```{r setup, include=FALSE}
 library(learnr)
 knitr::opts_chunk$set(echo = FALSE)
+#
+database <- read.csv(file = here::here("data/database.csv"))
+#
+database <- database[database$module == "mechanics", ]
 ```
 
-
-## Topic 1
-
-### Exercise 
-
-*Here's a simple exercise with an empty code chunk provided for entering the answer.*
-
-Write the R code required to add two plus two:
-
-```{r two-plus-two, exercise=TRUE}
-
+```{r, tabela}
+#| echo: FALSE
+#| output: "asis"
+#
+  dados_filtrado <- database |> 
+    dplyr::mutate(id = seq(1, nrow(database)))
+  # 
+  cat("# ", "mechanics", "\n\n")
+  #
+  for (j in 1:nrow(dados_filtrado)) {
+    cat("## ", dados_filtrado$title[j], "\n\n")
+    cat("Código: ", dados_filtrado$codigo[j], "\n\n")
+    cat("Code: ", dados_filtrado$code[j], "\n\n")
+    cat("Submodule: ", dados_filtrado$submodule[j], "\n\n")
+    cat(dados_filtrado$text[j], "\n\n")
+  }
+  cat("{{< pagebreak >}}", "\n\n")
 ```
-
-### Exercise with Code
-
-*Here's an exercise with some prepopulated code as well as `exercise.lines = 5` to provide a bit more initial room to work.*
-
-Now write a function that adds any two numbers and then call it:
-
-```{r add-function, exercise=TRUE, exercise.lines = 5}
-add <- function() {
-  
-}
-```
-
-## Topic 2
-
-### Exercise with Hint
-
-*Here's an exercise where the chunk is pre-evaluated via the `exercise.eval` option (so the user can see the default output we'd like them to customize). We also add a "hint" to the correct solution via the chunk immediate below labeled `print-limit-hint`.*
-
-Modify the following code to limit the number of rows printed to 5:
-
-```{r print-limit, exercise=TRUE, exercise.eval=TRUE}
-mtcars
-```
-
-```{r print-limit-hint}
-head(mtcars)
-```
-
-### Quiz
-
-*You can include any number of single or multiple choice questions as a quiz. Use the `question` function to define a question and the `quiz` function for grouping multiple questions together.*
-
-Some questions to verify that you understand the purposes of various base and recommended R packages:
-
-```{r quiz}
-quiz(
-  question("Which package contains functions for installing other R packages?",
-    answer("base"),
-    answer("tools"),
-    answer("utils", correct = TRUE),
-    answer("codetools")
-  ),
-  question("Which of the R packages listed below are used to create plots?",
-    answer("lattice", correct = TRUE),
-    answer("tools"),
-    answer("stats"),
-    answer("grid", correct = TRUE)
-  )
-)
-```
-
