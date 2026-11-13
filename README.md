@@ -14,9 +14,9 @@ You can install the development version of questoes like so:
 remotes::install_github("flavianowilliams/questoes")
 ```
 
-## Example
+## Running
 
-This is a basic example which shows you how to solve a common problem:
+After installation, you can load de package by using library command,
 
 ``` r
 library(questoes)
