@@ -16,7 +16,7 @@ remotes::install_github("flavianowilliams/questoes")
 
 ## Running
 
-After installation, you can load de package by using library command,
+After installation, you can load de package by using the `library` command,
 
 ``` r
 library(questoes)
