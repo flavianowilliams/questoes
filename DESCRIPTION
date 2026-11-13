@@ -1,0 +1,11 @@
+Package: questoes
+Title: Banco de questões de física
+Version: 0.0.1
+Authors@R: 
+    person("Flaviano Williams", "Fernandes", email = "flaviano.fernandes@ifpr.edu.br", role = c("aut", "cre"))
+Description: Base de dados contendo questões de física.
+License: GPL (>= 3)
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: RSQLite
