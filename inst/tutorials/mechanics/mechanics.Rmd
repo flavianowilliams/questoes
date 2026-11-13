@@ -2,6 +2,8 @@
 title: "Mecânica"
 author: "Flaviano Williams Fernandes"
 format:
+  html:
+    toc: true
   pdf:
     toc: true
     pdf-engine: pdflatex
