@@ -11,7 +11,7 @@ The goal of questoes is to ...
 You can install the development version of questoes like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+remotes::install_github("flavianowilliams/questoes")
 ```
 
 ## Example
