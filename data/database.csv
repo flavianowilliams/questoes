@@ -1,0 +1,1314 @@
+module,submodule,code,title,text
+mechanics,measurement,001,,"Determine o valor médio das medições \num{4.825} \unit[per-mode = symbol]{\kilo\gram\metre\per\second}, \num{13.7} \unit[per-mode = symbol]{\kilo\gram\metre\per\second} e \num{21.675} \unit[per-mode = symbol]{\kilo\gram\metre\per\second}"
+mechanics,measurement,002,,"Quantos algarismos significativos tem o número 0,007?"
+mechanics,measurement,003,,"Determine o valor da multiplicação entre os números 6,2 e 7,00 empregando as regras de operações matemáticas envolvendo algarismos significativos."
+mechanics,measurement,004,,Determine o desvio padrão dos seguintes valores: \num{6.175} ; \num{16.600}  e \num{30.800} .
+mechanics,measurement,005,,No método de regressão linear podemos dizer que...
+mechanics,measurement,006,,O raio da Terra é \num{6370000} metros. Represente este número na forma de notação científica.
+mechanics,measurement,007,,O raio da Terra é 6370000 metros. Represente este número na forma de notação científica.
+mechanics,measurement,008,,"Um automóvel faz um deslocamento de \num{291.75} \unit[per-mode = symbol]{\kilo\metre} em \num{9.2} \unit[per-mode = symbol]{\hour}. No SI, qual é a velocidade média desse automóvel?"
+mechanics,vectors,001,,Em qual das frases seguintes a palavra destacada é uma grandeza vetorial?
+mechanics,vectors,002,,"Na figura abaixo a = \num{200.0} \unit[per-mode = symbol]{\metre}, b = \num{200.0} \unit[per-mode = symbol]{\metre} e $\theta$ =  \num{21.0}\unit[per-mode = symbol]{\degree}. Determine o módulo do vetor resultante.
+        
+        \begin{center}
+            \begin{minipage}[c]{0.5\linewidth}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=8,ymin=0,ymax=6]
+                    \tkzClip[space=0.75]
+               		\tkzDefPoints{0/0/O, 8/6/A, 8/0/B, 4/6/C}
+                    \draw[->, line width=1pt] (O) -- (B) node [below, midway] {\Large $\vec{a}$};
+            		\draw[->, line width=1pt] (O) -- (C) node [above left, midway] {\Large $\vec{b}$};
+            		\tkzMarkAngle(B,O,C)
+            		\tkzLabelAngle[right](B,O,C){\Large $\theta$}
+                \end{tikzpicture}
+            \end{minipage}
+        \end{center}
+
+        "
+mechanics,vectors,003,,"Considere os vetores abaixo, qual deles possui a orientação de -90 graus em relação ao eixo x e o módulo igual a 3?
+
+        \begin{center}
+            \begin{minipage}[c]{0.5\linewidth}
+                \begin{tikzpicture}[scale=0.5,transform shape,font=\Large]
+                    \tkzInit[xmin=-5,xmax=5,ymin=-5,ymax=5]
+                    \tkzGrid[color=gray!20]
+                    \tkzClip[space=0.75]
+                    \tkzDefPoints{0/-3/B,-3/0/F,0/3/G,-4/-4/H,3/0/I,0/0/O,3/3/P}
+                    \tkzAxeX
+                    \tkzAxeY
+                    \draw[->,line width=2pt,color=red] (O) -- (B) node [right] {\Large $\vec{v}$};
+                    \draw[->,line width=2pt,color=red] (O) -- (G) node [right] {\Large $\vec{u}$};
+                    \draw[->,line width=2pt,color=red] (O) -- (F) node [above] {\Large $\vec{w}$};
+                    \draw[->,line width=2pt,color=red] (O) -- (I) node [above] {\Large $\vec{a}$};
+                    \draw[->,line width=2pt,color=red] (O) -- (P) node [above] {\Large $\vec{b}$};
+                \end{tikzpicture}
+            \end{minipage}
+        \end{center}
+
+            "
+mechanics,vectors,004,,"Considere dois vetores $\vec{a}$ e $\vec{b}$ no plano cartesiano como mostra a figura abaixo. Marque a alternativa correta. 
+
+        \begin{center}
+            \begin{minipage}[c]{0.5\linewidth}
+                \begin{tikzpicture}[scale=0.5,transform shape,font=\Large]
+                    \tkzInit[xmin=-5,xmax=5,ymin=-5,ymax=5]
+                    \tkzGrid[color=gray!20]
+                    \tkzClip[space=0.75]
+                    \tkzDefPoints{0/0/O,2/4/A,4/-2/B}
+                    \tkzAxeX
+                    \tkzAxeY
+                    \draw[->,line width=2pt,color=red] (O) -- (A) node [right] {\Large $\vec{a}$};
+                    \draw[->,line width=2pt,color=red] (O) -- (B) node [right] {\Large $\vec{b}$};
+                \end{tikzpicture}
+            \end{minipage}
+        \end{center}
+
+            "
+mechanics,vectors,005,,"Considere o vetor da figura abaixo. Determine o módulo desse vetor.
+
+        \begin{center}
+            \begin{minipage}[c]{0.5\linewidth}
+                \begin{tikzpicture}[scale=0.5,transform shape,font=\Large]
+                    \tkzInit[xmin=-5,xmax=5,ymin=-5,ymax=5]
+                    \tkzClip[space=0.75]
+                    \tkzDefPoints{1/-1/A,4/-4/B}
+                    \tkzAxeX
+                    \tkzAxeY
+                    \draw[->,line width=2pt,color=red] (A) -- (B) node [right] {\Large $\vec{v}$};
+                    \tkzPointShowCoord(A)
+                    \tkzPointShowCoord(B)
+                \end{tikzpicture}
+            \end{minipage}
+        \end{center}
+        "
+mechanics,unidimensional_motion,001,,A função horária da posição de um objeto que se move ao longo do eixo x é $x(t)=5t^2-3t+4$. Qual é a velocidade média no intervalo de tempo de t = \num{6.17} \unit[per-mode = symbol]{\second} a t = \num{29.0} \unit[per-mode = symbol]{\second}.
+mechanics,unidimensional_motion,002,,"Considere três pares de posições iniciais e finais ao longo do eixo x: (a) -3 m, 5 m; (b) -3 m; -7 m; (c) 7 m; -3 m. Quais desses pares correspondem a deslocamentos negativos?"
+mechanics,unidimensional_motion,003,,"Um objeto se move ao longo do eixo x em um movimento uniformemente variado de acordo com a função horária $x(t)=3-2t+4t^2$. Sabendo que as unidades medidas estão sendo representadas no Sistema Internacional, qual é a aceleração do objeto no instante t = 4 s?"
+mechanics,unidimensional_motion,004,,"Observe a figura abaixo, supondo que o carro da 3G scientific percorre um circuito completo (partindo do ponto de partida até o ponto de chegada) em um intervalo de tempo de seis minutos, determine a sua velocidade média."
+mechanics,bidimensional_motion,001,,"Das alternativas abaixo, marque aquela que melhor representa o movimento circular uniforme (MCU)."
+mechanics,bidimensional_motion,002,,O piloto de um bombardeio precisa atingir uma trincheira inimiga que se encontra à frente da trincheira aliada. Para isso ele precisa lançar do avião uma bomba justamente no instante que ele estiver em cima da trincheira aliada e indo em direção a trincheira inimiga. Podemos dizer que...
+mechanics,bidimensional_motion,003,,"Na figura abaixo, determine o deslocamento de um objeto que se move do ponto A até o ponto B.
+        
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=-5,xmax=5,ymin=-5,ymax=5]
+                    \tkzGrid[color=gray!20]
+                    \tkzClip[space=1.75]
+                    \tkzDefPoints{0.2/-2.2/A,0.2/-5/F,5/-5/C,5/5/D,-3.2/5/E,-3.2/1.7/B}
+                    \tkzDrawX[right,label=x (m)]
+                    \tkzDrawY[above,label=y (m)]
+                    \tkzLabelX
+                    \tkzLabelY
+                    \tkzPointShowCoord[xlabel = 0.2, ylabel = -2.2, pos = 0.25](A)
+                    \tkzPointShowCoord[xlabel = -3.2, ylabel = 1.7, pos = 0.25](B)
+                    \draw[->,line width=2pt,color=red] (A) -- (F);
+                    \draw[->,line width=2pt,color=red] (F) -- (C);
+                    \draw[->,line width=2pt,color=red] (C) -- (D);
+                    \draw[->,line width=2pt,color=red] (D) -- (E);
+                    \draw[->,line width=2pt,color=red] (E) -- (B);
+                    \tkzDrawPoints[size=0.25cm](A,B)
+                    \tkzLabelPoints[left, font=\Large](A)
+                    \tkzLabelPoints[below, font=\Large](B)
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+fluids,hydrostatic,001,,Determine o empuxo sobre uma esfera de raio \num{15.0} \unit{\centi\metre} que possui \num{18.5} \% do seu volume submerso.
+fluids,hydrostatic,002,,"O peso de um recipiente com água é igual ao peso do suporte e da esfera de ferro maciço (figura a). Quando a esfera suspensa é abaixada e mergulhada na água, a balança se inclina (figura b). Considere que o volume da bola é \num{7.25} \unit{\litre}, a densidade do ferro é \num{7000.0} \unit[per-mode = symbol]{\kilo\gram\per\cubic\metre} e a densidade da água é \num{1000.0} $kg/m^3$. Calcule a massa adicional que deve ser colocada no lado direito da balança a fim de equilibrá-la novamente, com a bola ainda suspensa e imersa na água."
+fluids,hydrostatic,003,,"Uma barca para transportar automóveis entre as margens de um rio quando vazia, tem volume igual a \num{160.0} \unit{\cubic\metre} e massa igual \num{50000.0} \unit[per-mode = symbol]{\kilo\gram}. Considere que todos os automóveis transportados tenham a mesma massa de \num{2325.0}  \unit{\cubic\metre}, e que a densidade da água seja \num{1000.0} $kg/m^3$. Qual é o número máximo de automóveis que podem ser simultaneamente transportados pela barca?"
+fluids,hydrostatic,004,,"Considere uma piscina, cheia de água, de profundidade \num{15.85} \unit{\metre}, largura \num{250.0} \unit{\metre} e comprimento \num{137.95} \unit{\metre}. Supondo que a pressão atmosférica é igual a \num{101000} \unit{\pascal}, calcule a pressão exercida no fundo da piscina."
+fluids,hydrostatic,005,,Determine o empuxo sobre um cubo de aresta \num{15.0} \unit{\centi\metre} que possui \num{18.5} \% do seu volume submerso.
+fluids,hydrostatic,006,,Podemos aumentar a densidade absoluta de uma substância...
+fluids,hydrostatic,007,,"Um bloco de madeira, cujo volume é de \num{57.92} \unit[per-mode = symbol]{\liter}, está flutuando em água, com \num{40.4} \unit[per-mode = symbol]{\percent} de seu volume submerso. Qual é o peso do bloco?"
+fluids,hydrodynamics,001,,Em um cano que possui uma área de seção reta de \num{160.0} \unit{\square\centi\metre} atravessa água com uma vazão de \num{0.1} \unit[per-mode = symbol]{\cubic\metre\per\second}. Qual é a velocidade de escoamento da água nesse cano?
+fluids,hydrodynamics,002,,"Quando uma torneira é aberta, observa-se que o fluxo de água que sai dela tende a afinar-se. Esse fenômeno pode ser explicado por meio:"
+fluids,hydrodynamics,003,,Em um encanamento de área igual a \num{11.93} \unit{\square\centi\metre} flui água à uma velocidade de \num{2.06} \unit[per-mode = symbol]{\metre\per\second}. Determine o tempo necessário que esse encanamento gasta para encher uma piscina de volume igual a \num{208.0} \unit{\cubic\metre}.
+fluids,hydrodynamics,004,,"Um tanque de uma refinaria de petróleo deve ser preenchido com \num{19650.0} \unit[per-mode = symbol]{\cubic\metre}. Sabendo que a vazão de transferência de óleo do navio para o tanque é igual à \num{60.0} \unit[per-mode = symbol]{\liter\per\second}, estime a quantidade de dias necessários para a conclusão de transferência."
+mechanics,newtons_law,001,,"Um bloco, está em repouso, apoiado sobre um plano inclinado como mostra a figura abaixo. O coeficiente de atrito estático entre o bloco e o plano é igual a \num{0.29} . Determine a inclinação máxima que podemos aplicar ao plano sem que o bloco desça para baixo.
+
+        \begin{center}
+            \begin{minipage}[c]{0.5\linewidth}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=8,ymin=0,ymax=8]
+                    \tkzClip[space=1]
+
+                    \tkzDefPoints{0/0/A,8/0/B,8/8/C}
+
+                    \tkzDrawPolygon(A,B,C)
+
+                    \tkzDefPoints{3/5/a,4/6/b,4/4/c,5/5/d}
+
+                    \tkzDrawPolygon(b,a,c,d)
+                    \tkzFillPolygon[color=gray](b,a,c,d)
+
+                    \tkzDefPoints{4/5/D}
+
+                    \draw[->,line width=1.5pt,color=red] (D) --++ (0,-3) node [below] {\Huge $\vec{P}$};
+
+                    \tkzMarkAngle(B,A,C)
+                    \tkzLabelAngle[pos=1.5](B,A,C){\Huge $\theta$}
+                \end{tikzpicture}
+            \end{minipage}
+        \end{center}
+
+        "
+mechanics,newtons_law,002,,"Na figura abaixo podemos observar um bloco de massa M=\num{9.43} \unit{\kilo\gram}, pendurado por dois fios de massas desprezíveis. Supondo $\theta_1=\num{70.0}$ graus e $\theta_2=\num{47.5}$ graus, determine a máxima tensão aplicada nos dois fios.
+
+        \begin{center}
+            \begin{minipage}[c]{0.5\linewidth}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+					\tkzInit[xmin=-4,xmax=4,ymin=-8,ymax=0]
+					%\tkzGrid[color=gray!20]
+					%\tkzClip[space=1]
+					
+					\tkzDefPoints{0/-4/O,-4/0/A,4/0/B,0/-6/C}
+					
+					%parede
+					\fill [pattern = north west lines] ($(B)+(0,0.25)$) rectangle (A);
+					\draw (A) -- (B);
+					
+					\tkzMarkAngle(O,A,B)
+					\tkzLabelAngle[pos=1.5](O,A,B){\huge $\theta_1$}
+					
+					\tkzMarkAngle(A,B,O)
+					\tkzLabelAngle[pos=1.5](A,B,O){\huge $\theta_2$}
+					
+					\draw (O) -- (A) node [below left, midway] {1};
+					\draw (O) -- (B) node [below right, midway] {2};
+					
+					\tkzDefPoints{-1/-6/a,1/-6/b,-1/-8/c,1/-8/d,0/-7/e}
+					
+                    \tkzDefCircle[R](O,0.5mm)\tkzGetPoint{c1}
+					\tkzDrawCircle[fill=gray](O,c1)
+					
+					\tkzText(O){M}
+					
+                \end{tikzpicture}
+            \end{minipage}
+        \end{center}
+
+        "
+mechanics,newtons_law,003,,O código de trânsito brasileiro determina que é obrigatório o uso do cinto de segurança para condutor e passageiros em todas as vias do território nacional. Essa ação justifica evitar acidentes fatais devido à (ao)...
+mechanics,newtons_law,004,,Uma mosca colide com o para-brisa de um ônibus que se move rapidamente. Qual dos dois sofre a ação de uma força de maior intensidade no impacto?
+mechanics,newtons_law,005,,"Um físico com a intenção de medir a força de atrito da superfície de um material constrói um plano inclinado contendo uma plataforma flexível, onde pode-se ajustar a altura H deste plano em relação ao seu comprimento x. O físico realiza várias medidas neste plano para diversos valores de x, e em seguida os valores de x e H são registrados no gráfico abaixo. A linha reta é representada pela função $H(x) = (\num{0.589}x\;\text{m})+(\num{4.1e-03}\;\text{m})$. Determine o coeficiente de atrito deste material.
+        
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=10,ymin=0,ymax=10]
+                    \tkzClip[space=1.5]
+                    \tkzDrawX[right,label=x]
+                    \tkzDrawY[above,label=H(x)]
+                    \tkzFct[domain=0:10,color=red,line width=1.5pt]{0.589*x}
+                    \tkzDefPointByFct(2)\tkzGetPoint{a}
+                    \tkzDefPointByFct(4)\tkzGetPoint{b}
+                    \tkzDefPointByFct(6)\tkzGetPoint{c}
+                    \tkzDefPointByFct(8)\tkzGetPoint{d}
+                    \tkzDefPointByFct(9)\tkzGetPoint{e}
+                    \fill[black]($(a)+(0,0.5)$) circle (3pt);
+                    \fill[black]($(b)-(0,0.5)$) circle (3pt);
+                    \fill[black]($(c)+(0,0.5)$) circle (3pt);
+                    \fill[black]($(d)-(0,0.5)$) circle (3pt);
+                    \fill[black]($(e)+(0,0.5)$) circle (3pt);
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+mechanics,work_and_energy,001,Cálculo do trabalho a partir do gráfico da força versus deslocamento,"Considere uma partícula de massa \num{15.85} \unit[per-mode = symbol]{\kilo\gram} se movimentando na direção do eixo x. Ela percorre uma trajetória na direção x mediante a ação de uma força $\vec{F}$ como mostra a figura abaixo. À partir da origem, a força aumenta continuamente até $x_1=\num{2.65}$ \unit[per-mode = symbol]{\metre}, e em seguida a força diminui gradualmente até zero em $x_2=\num{15.0}$ \unit[per-mode = symbol]{\metre}. Sabendo que a força máxima $F_{max}$ que atua sobre ela equivale a \num{66.75} \unit[per-mode = symbol]{\newton}, determine o trabalho realizado pela força $\vec{F}$ ao longo de todo o percurso.
+
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=10,ymin=0,ymax=6]
+                    \tkzClip[space=1.75]
+                    \tkzDrawX[right,label={x(m)}]
+                    \tkzDrawY[above,label={F(N)}]
+            		\tkzFct[domain=0:5,color=red,line width=1.5pt]{x}
+                    \tkzDefPointByFct[ref=A](5)
+                    \tkzPointShowCoord(A)
+            		\tkzFct[domain=5:10,color=red,line width=1.5pt]{-x+10}
+                    \tkzDefPoints{5/0/x1, 10/0/x2, 0/5/F}
+                    \tkzText[color=black, below](x1){$x_1$}
+                    \tkzText[color=black, below](x2){$x_2$}
+                    \tkzText[color=black, left](F){$F_{max}$}
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+mechanics,work_and_energy,002,Cálculo da velocidade a partir do gráfico da força versus deslocamento,"Considere uma partícula se movendo na direção do eixo x mediante uma força $\vec{F}$ como mostra a figura abaixo. Determine o trabalho realizado pela força durante todo o trajeto.
+        
+        \begin{center}
+                    \begin{tikzpicture}[scale=0.4,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=12,ymin=-3,ymax=5]
+                    \tkzClip[space=2.0]
+                    \tkzDrawX[label = x (m), right]
+                    \tkzDrawY[label = F (N), above]
+                    \tkzLabelX
+                    \tkzLabelY
+					\tkzFct[domain=0:1.4, color=red, line width=1pt]{4*x/1.4}
+					\tkzDefPointByFct(1.4)\tkzGetPoint{p}
+					\tkzPointShowCoord(p)
+					\tkzFct[domain=1.4:11.0, color=red, line width=1pt]{4+6*1.4/(11.0-1.4)-6*x/(11.0-1.4)}
+					\tkzDefPointByFct(11.0)\tkzGetPoint{p}
+					\tkzPointShowCoord(p)
+					\tkzFct[domain=11.0:12, color=red, line width=1pt]{2*x/(12-11.0)-24/(12-11.0)}
+                \end{tikzpicture}
+        \end{center}
+
+        "
+mechanics,work_and_energy,003,Versão conceitual do cálculo da velocidade a partir do gráfico força versus deslocamento,"Considere uma partícula se movendo na direção do eixo x mediante uma força $\vec{F}$ como mostra a figura abaixo. Determine se no final do trajeto a velocidade da partícula aumentou, diminuiu ou permaneceu inalterada.
+        
+        \begin{center}
+                    \begin{tikzpicture}[scale=0.4,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=12,ymin=-3,ymax=5]
+                    \tkzClip[space=2.0]
+                    \tkzDrawX[label = x (m), right]
+                    \tkzDrawY[label = F (N), above]
+                    \tkzLabelX
+                    \tkzLabelY
+					\tkzFct[domain=0:4, color=red, line width=1pt]{x}
+					\tkzDefPointByFct(4)\tkzGetPoint{p}
+					\tkzPointShowCoord(p)
+					\tkzFct[domain=4:10, color=red, line width=1pt]{8-x}
+					\tkzDefPointByFct(10)\tkzGetPoint{p}
+					\tkzPointShowCoord(p)
+					\tkzFct[domain=10:12, color=red, line width=1pt]{x-12}
+                \end{tikzpicture}
+        \end{center}
+
+        "
+mechanics,conservation_of_energy,001,,"Considere a situação apresentada na figura ao lado, na qual uma pessoa arremessa uma bola, verticalmente para baixo, do alto de um edifício. No ponto A, quando a pessoa solta a bola, a energia potencial (em relação ao solo) da bola é \num{6.17} \unit{\joule} e sua energia cinética é \num{4.6} \unit{\joule}. Suponha que, ao chegar a B, a energia cinética da bola seja de \num{2.8} \unit{\joule}. Qual foi a perda da energia cinética da bola devido a resistência do ar ao se deslocar de A para B?"
+mechanics,conservation_of_energy,002,,"Considere uma partícula de massa \num{15.85} \unit{\kilo\gram} se movimentando na direção do eixo x. Ela percorre uma trajetória total de $x_2=\num{15.0}$ \unit{\metre} mediante a ação de uma força $\vec{F}$ como mostra a figura abaixo. À partir da origem a força aumenta continuamente até $x_1=\num{2.65}$ \unit{\metre}, mantendo-se em seguida constante até o final do percurso. Sabendo que a força máxima $F_{max}$ que atua sobre ela equivale a \num{66.75} \unit{\newton}, e que ela estava em repouso no início do movimento, determine a sua velocidade no final do percurso.
+
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=10,ymin=0,ymax=6]
+                    \tkzClip[space=1.75]
+                    \tkzDrawX[right,label={x(m)}]
+                    \tkzDrawY[above,label={F(N)}]
+            		\tkzFct[domain=0:4,color=red,line width=1.5pt]{x}
+                    \tkzDefPointByFct[ref=A](4)
+                    \tkzPointShowCoord(A)
+            		\tkzFct[domain=4:10,color=red,line width=1.5pt]{4}
+                    \tkzDefPointByFct[ref=B](10)
+                    \tkzPointShowCoord(B)
+                    \tkzDefPoints{4/0/x1, 10/0/x2, 0/4/F}
+                    \tkzText[color=black, below](x1){$x_1$}
+                    \tkzText[color=black, below](x2){$x_2$}
+                    \tkzText[color=black, left](F){$F_{max}$}
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+mechanics,conservation_of_energy,003,Trabalho realizado pela força em um trecho do circuito fechado,"Quando uma partícula se desloca do ponto f para o ponto i, e do ponto j para o ponto i seguindo as trajetórias mostradas na figura abaixo, seguindo os sentidos indicados, uma força conservativa $\vec{F}$ realiza os trabalhos indicados. Qual é o trabalho realizado pela força sobre a partícula quando ela se desloca diretamente de f para j?
+        
+        \begin{center}
+            \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                \tkzInit[xmin=0,xmax=10,ymin=0,ymax=6]
+                \tkzClip[space=0.25]
+                \tkzDefPoints{8/5/A, 1/3/B, 3/1/C, 10/4/D}
+                \tkzDrawPoint[size = 0.25cm](A)
+                \tkzText[above=2mm, color=black](A){f}
+                \tkzDrawPoint[size = 0.25cm](C)
+                \tkzText[above=2mm, color=black](C){i}
+                \tkzDrawPoint[size = 0.25cm](D)
+                \tkzText[above=2mm, color=black](D){j}
+                \draw[midarrow, line width=1pt] (A) .. controls +(left:3cm) and +(up:2cm) .. (B) node [above=3mm, midway] {-850.3} .. controls +(down:2cm) and +(right:1cm) .. (C);
+                \draw[midarrowinv, line width=1pt] (C) .. controls (6, 1) and (7, 3) .. (D) node [below right=3mm, midway] {1000.0};
+
+            \end{tikzpicture}
+        \end{center}
+
+        "
+mechanics,conservation_of_momentum,001,,"Uma partícula, de massa \num{160.0} \unit{\gram}, descreve um movimento circular uniforme com velocidade \num{25.0} \unit[per-mode = symbol]{\metre\per\second}. Calcule o impulso que a força centrípeta exerce sobre a partícula durante um intervalo de tempo equivalente à metade do período desse movimento.
+        
+        "
+mechanics,conservation_of_momentum,002,,"Considere um sistema constituído por um automóvel, de massa \num{545.0} \unit{\kilo\gram} e um caminhão de massa \num{2000.0} \unit{\kilo\gram}. Determine o módulo da quantidade de movimento do centro de massa do sistema, considerando que o automóvel e o caminhão se movimentam na mesma direção a \num{47.5} \unit[per-mode = symbol]{\metre\per\second}, mas em sentidos opostos.
+        
+        "
+mechanics,particle_system,001,,"Um conjunto é formado por três blocos de massa $m_1=\num{0.88}$ \unit{\kilo\gram},$m_2=\num{8.0}$ \unit{\kilo\gram} e $m_3=\num{7.75}$ \unit{\kilo\gram}. Determine a coordenada x do centro de massa do conjunto.
+        
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=10,ymin=0,ymax=5]
+                    \tkzClip[space=1.75]
+                    \tkzDrawX[right,label={x}]
+                    \tkzDefPoints{1/0/A, 3/5/B}
+                    \tkzText[below=0.25](A){0}
+                    \tkzDefRectangle[fill=gray!25](A,B)\tkzGetPoints{C}{D}
+                    \tkzDrawPolygon(A, C, B, D)
+                    \draw (D) to[dim arrow={label=\num{19.75} \unit{\centi\metre}}] (B);
+                    \tkzDefPoints{3/0/A, 6/5/B}
+                    \tkzDefRectangle[fill=gray!50](A,B)\tkzGetPoints{C}{D}
+                    \tkzDrawPolygon(A, C, B, D)
+                    \draw (D) to[dim arrow={label=\num{44.38} \unit{\centi\metre}}] (B);
+                    \tkzDefPoints{6/0/A, 10/5/B}
+                    \tkzDefRectangle[fill=gray!75](A,B)\tkzGetPoints{C}{D}
+                    \tkzDrawPolygon(A, C, B, D)
+                    \draw (D) to[dim arrow={label=\num{81.4} \unit{\centi\metre}}] (B);
+                    \tkzDefPoints{1.5/2.5/m1, 4/2.5/m2, 7.5/2.5/m3}
+                    \tkzText[right](m1){$m_1$}
+                    \tkzText[right](m2){$m_2$}
+                    \tkzText[right](m3){$m_3$}
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+mechanics,particle_system,002,,"Um conjunto é formado por três blocos de massa $m_1=\num{0.88}$ \unit{\kilo\gram},$m_2=\num{8.0}$ \unit{\kilo\gram} e $m_3=\num{7.75}$ \unit{\kilo\gram}. O coeficiente de atrito entre os blocos e o chão é igual a \num{0.56}. Aplica-se uma força equivalente a \num{193.75} \unit{\newton} no bloco menor, assim como mostra a figura abaixo. Determine a intensidade da força RESULTANTE que atua no bloco menor.
+        
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=10,ymin=0,ymax=5]
+                    \tkzClip[space=1.75]
+                    \tkzDrawX[right,label={x}]
+                    \tkzDefPoints{1/0/A, 3/5/B}
+                    \tkzDefRectangle[fill=gray!25](A,B)\tkzGetPoints{C}{D}
+                    \tkzDrawPolygon(A, C, B, D)
+                    \tkzDefPoints{3/0/A, 6/5/B}
+                    \tkzDefRectangle[fill=gray!50](A,B)\tkzGetPoints{C}{D}
+                    \tkzDrawPolygon(A, C, B, D)
+                    \tkzDefPoints{6/0/A, 10/5/B}
+                    \tkzDefRectangle[fill=gray!75](A,B)\tkzGetPoints{C}{D}
+                    \tkzDrawPolygon(A, C, B, D)
+                    \tkzDefPoints{1.5/2.5/m1, 4/2.5/m2, 7.5/2.5/m3}
+                    \tkzText[right](m1){$m_1$}
+                    \tkzText[right](m2){$m_2$}
+                    \tkzText[right](m3){$m_3$}
+                    \tkzDefPoint(0,2.5){v1}
+                    \draw[->, line width=2pt] (v1) --++ (1,0) node [left, at start] {$\vec{F}$};
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+mechanics,particle_system,003,,"Calcule o centro de massa do conjunto abaixo.
+        
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                	\tikzstyle{s1}=[circle, radius=0.1, ball color=gray!50];
+	                \tkzInit[xmin=0,xmax=10,ymin=0,ymax=0]
+	                \tkzGrid[color=gray!20]
+	                \tkzClip[space=2]
+	                \tkzDefPoints{1/0/m1,8/0/m2}
+	                \tkzDrawX[label=x,right]
+	                \draw[s1] (m1) circle [radius=0.1cm] node [above] {\num{2.2}\unit{\kilo\gram}};
+	                \draw[s1] (m2) circle [radius=0.2cm] node [above] {\num{50.0}\unit{\kilo\gram}};
+                    \tkzText[below=0.5](m1){\num{5.4}\unit{\metre}}
+                    \tkzText[below=0.5](m2){\num{36.0}\unit{\metre}}
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+mechanics,particle_system,004,,"Um dublê cai do alto de um prédio em cima de um colchão inflável sem ter algum hematoma. No entanto, sem o colchão os danos ao seu corpo seriam bem maiores. Isso acontece porque"
+mechanics,particle_system,005,,"Um patinador segurando uma caixa encontra-se na origem de um sistema de coordenadas. Considere que a massa do patinador é muito maior que a caixa. Em um momento de raiva, o patinador decide jogar a caixa como mostra a figura. Determine a localização do centro de massa antes da caixa chegar ao chão."
+thermodynamics,zero_law,001,,"Um viajante, ao desembarcar no aeroporto de Londres, observou que o valor da temperatura do ambiente na escala Fahrenheit é \num{6.6} vezes o valor correspondente na escala graus Celsius. Qual é o valor dessa temperatura?"
+thermodynamics,zero_law,002,,Calcule o quanto uma barra de alumínio de \num{19.25} \unit{\centi\metre} de comprimento irá aumentar o seu tamanho quando a sua temperatura aumentar de \num{40.0} \unit{\celsius} para \num{77.5} \unit{\celsius}. Considere o coeficiente de dilatação como \num{23e-6} \unit{\per\celsius}.
+thermodynamics,first_law,001,Cálculo da temperatura de um gás no final de um processo,\num{1.6} \unit[per-mode = symbol]{\mol} de um gás ideal com uma temperatura inicial de \num{400.0} \unit[per-mode = symbol]{\kelvin} expande e nesse processo absorve \num{3565.0} \unit[per-mode = symbol]{\joule} de calor e realiza \num{1432.5} \unit[per-mode = symbol]{\joule} de trabalho. Determine a temperatura do gás no final do processo.
+thermodynamics,first_law,002,Cálculo da variação da energia utilizando a primeira lei da Termodinâmica,"Considere que \num{-700.0} \unit[per-mode = symbol]{\joule} de trabalho são realizados por um gás ou sobre ele. Sabendo que ele absorve \num{1000.0} \unit[per-mode = symbol]{cal} de calor de uma fonte externa, determine a variação da sua energia."
+thermodynamics,first_law,003,Cálculo do trabalho de um gás à partir do gráfico de dois processos termodinâmicos,"Um gás preso em uma câmara hermeticamente fechada contém um pistão que pode se movimentar livremente. O gráfico abaixo mostra dois processos termodinâmicos que acontecem em sequência. Determine o trabalho total associado a esse gás.
+        
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=-2,xmax=10,ymin=0,ymax=10]
+                    \tkzClip[space=1.25]
+                        \tkzDrawX[label=$V(m^3)$]
+                        \tkzDrawY[label=$P(10^5\;N/m^2)$, above]
+                        \tkzDefPoints{2/2/a, 2/8/b, 8/2/d}
+                        \tkzDefPoints{2/0/xa, 8/0/xb, 0/2/ya, 0/8/yb}
+                        \tkzPointShowCoord(a)
+                        \tkzPointShowCoord(b)
+                        \tkzPointShowCoord(d)
+                        \tkzText[below, color=black](xa){\huge \num{1.0}}
+                        \tkzText[below, color=black](xb){\huge \num{20.0}}
+                        \tkzText[left, color=black](ya){\huge \num{1.0}}
+                        \tkzText[left, color=black](yb){\huge \num{13.7}}
+                        \draw[->, line width=2pt, color=red] (a) -- (b);
+                        \draw[->, line width=2pt, color=red] (d) -- (a);
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+thermodynamics,first_law,004,Cálculo do trabalho de um gás em expansão num processo isobárico,"Quando são colocados 12 moles de um gás em um recipiente com êmbolo que mantém a pressão igual a da atmosfera, inicialmente ocupando \num{11.5} \unit[per-mode = symbol]{\cubic\metre}. Ao empurrar o pistão, o volume ocupado passa a ser \num{9.0} \unit[per-mode = symbol]{\cubic\metre}. Considerando a pressão \num{101325.0} $N/m^2$, qual é o trabalho associado ao gás?"
+thermodynamics,first_law,005,Questão conceitual sobre a diferença de temperatura do ar que sai da boca,"Quando você assopra com a boca totalmente aberta, você sente um ar quente na sua mão. No entanto quando você deixa a sua boca parcialmente fechada, você sente um ar frio. A resposta mais plausível seria"
+thermodynamics,first_law,006,Cálculo do trabalho realizado em um processo adiabático,"Em um processo adiabático, \num{6.17} \unit[per-mode = symbol]{\mol} de um gás hélio sofreu uma variação de temperatura de \num{80.0} \unit[per-mode = symbol]{\celsius}. Qual foi o trabalho realizado durante o processo?
+        "
+thermodynamics,second_law,001,Cálculo da quantidade de combustível necessário para um automóvel atingir uma determinada velocidade,"O processo de combustão da gasolina é capaz de liberar \num{40.5} \unit[per-mode=symbol]{\kilo\joule\per\gram} de calor. Determine o quanto de combustível é necessário para um automóvel de \num{575.0} \unit[per-mode = symbol]{\kilo\gram} precisa para alcançar a velocidade de \num{120.0} \unit[per-mode = symbol]{\kilo\metre\per\hour}, sabendo que o rendimento do seu motor é de \num{48.5} \%. (Dica: Considere que a gasolina possui uma densidade de \num{0.7} \unit[per-mode=symbol]{\gram\per\cubic\centi\metre}.)"
+thermodynamics,second_law,002,Cálculo do rendimento de um motor à partir do gráfico da pressão versus volume,"Um motor à combustão executa um processo cíclico como mostra o gráfico abaixo. Considerando que ele recebeu uma quantidade de calor equivalente de \num{3.2} \unit[per-mode = symbol]{\mega\joule}, determine o rendimento desse motor.
+
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=-2,xmax=10,ymin=0,ymax=10]
+                    \tkzClip[space=1.25]
+                        \tkzDrawX[label=$V(m^3)$]
+                        \tkzDrawY[label=$P(10^5\;N/m^2)$, above]
+                        \tkzDefPoints{2/2/a, 2/8/b, 8/8/c, 8/2/d}
+                        \tkzDefPoints{2/0/xa, 8/0/xd, 0/2/ya, 0/8/yb}
+                        \tkzPointShowCoord(a)
+                        \tkzPointShowCoord(b)
+                        \tkzPointShowCoord(d)
+                        \tkzText[below, color=black](xa){\huge \num{1.0}}
+                        \tkzText[below, color=black](xd){\huge \num{11.9}}
+                        \tkzText[left, color=black](ya){\huge \num{1.0}}
+                        \tkzText[left, color=black](yb){\huge \num{8.75}}
+                        \draw[->, line width=2pt, color=red] (a) -- (b);
+                        \draw[->, line width=2pt, color=red] (b) -- (c);
+                        \draw[->, line width=2pt, color=red] (c) -- (d);
+                        \draw[->, line width=2pt, color=red] (d) -- (a);
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+thermodynamics,second_law,003,Questão conceitual sobre um motor à combustão,A respeito de um motor à combustão podemos dizer que...
+thermodynamics,second_law,004,Cálculo da quantidade de calor desperdiçado por um motor,Determine a quantidade de calor desperdiçado por um motor que realiza \num{1192.5} \unit[per-mode = symbol]{\joule} de trabalho com \num{4360.0} \unit[per-mode = symbol]{cal} de calor recebido.
+thermodynamics,second_law,005,Cálculo do rendimento de uma máquina térmica a partir do trabalho e do calor recebido,Uma máquina térmica cíclica recebe \num{5750.0} \unit[per-mode = symbol]{\joule} de calor de uma fonte quente e realiza trabalho de \num{4500.0} \unit[per-mode = symbol]{\joule} Calcule o rendimento dessa máquina térmica.
+thermodynamics,second_law,006,Cálculo do trabalho realizado por um gás em um processo cíclico,"Considere o processo cílclico mostrado na figura abaixo. Determine o trabalho associado ao gás.
+        
+        \begin{center}
+            \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+
+                \tkzInit[xmin=0,xmax=5,ymin=0,ymax=6]
+                \tkzClip[space=2.25]
+
+                \tkzDrawX[label = $V (m^3)$,  right]
+                \tkzDrawY[label = $P (\times 10^5\; N/m^2)$,  above]
+
+                \tkzDefPoints{1/1/p1, 4/1/p2, 4/5/p3}
+
+                \draw[midarrow, line width=2pt, color=red] (p1) -- (p2);
+                \draw[midarrow, line width=2pt, color=red] (p2) -- (p3);
+                \draw[midarrow, line width=2pt, color=red] (p3) -- (p1);
+
+                \tkzDrawPoints[size = 2mm](p1, p2, p3)
+
+                \tkzDefPoints{1/0/x1, 4/0/x2, 0/1/y1, 0/5/y2}
+
+                \tkzText[below](x1){1.6}
+                \tkzText[below](x2){20.0}
+                \tkzText[left](y1){3.2}
+                \tkzText[left](y2){15.1}
+
+            \end{tikzpicture}
+        \end{center}
+
+        "
+thermodynamics,second_law,007,Cálculo da quantidade de calor associando a um gás em um processo cíclico,"Considere o processo cílclico mostrado na figura abaixo. Determine a quantidade de calor que o gás irá receber ou ceder para a vizinhança.
+        
+        \begin{center}
+            \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+
+                \tkzInit[xmin=0,xmax=5,ymin=0,ymax=6]
+                \tkzClip[space=2.25]
+
+                \tkzDrawX[label = $V (m^3)$,  right]
+                \tkzDrawY[label = $P (\times 10^5\; N/m^2)$,  above]
+
+                \tkzDefPoints{1/1/p1, 4/1/p2, 4/5/p3}
+
+                \draw[midarrow, line width=2pt, color=red] (p1) -- (p2);
+                \draw[midarrow, line width=2pt, color=red] (p2) -- (p3);
+                \draw[midarrow, line width=2pt, color=red] (p3) -- (p1);
+
+                \tkzDrawPoints[size = 2mm](p1, p2, p3)
+
+                \tkzDefPoints{1/0/x1, 4/0/x2, 0/1/y1, 0/5/y2}
+
+                \tkzText[below](x1){1.6}
+                \tkzText[below](x2){20.0}
+                \tkzText[left](y1){3.2}
+                \tkzText[left](y2){15.1}
+
+            \end{tikzpicture}
+        \end{center}
+
+        "
+thermodynamics,heat,001,,"Um cientista apaixonado por café decide calcular a capacidade térmica de sua garrafa. Para isso ele fez o seguinte experimento: Colocou \num{72.5} \unit[per-mode = symbol]{\gram} de água na garrafa e após o equilíbrio térmico ser alcançado, ele verificou uma temperatura \num{30.0} \unit[per-mode = symbol]{\celsius} no seu interior. Em seguida, ele resolve colocar a mesma quantidade de água à uma temperatura de \num{86.5} \unit[per-mode = symbol]{\celsius}, e após um longo período de tempo a temperatura que ele encontrou foi de \num{36.2} \unit[per-mode = symbol]{\celsius}. Qual é a capacidade térmica dessa garrafa?"
+thermodynamics,heat,002,,"Das alternativas abaixo, marque aquela que está \textbf{ERRADA} a respeito dos processos de transferência de calor."
+thermodynamics,heat,003,,"Um objeto possui o calor específico equivalente à \num{1.23} vezes o calor específico da água líquida. Determine a quantidade de calor que esse objeto poderá receber, ou ceder, se elevarmos um grau Celsius a temperatura de \num{406.0} \unit[per-mode = symbol]{\gram} dessa substância."
+thermodynamics,heat,004,,"Se aquecermos uma massa de \num{158.5} \unit[per-mode = symbol]{\gram} de água, de \num{49.0} \unit[per-mode = symbol]{\celsius} para \num{77.5} \unit[per-mode = symbol]{\celsius}, qual é a quantidade de calor que o objeto irá receber ou ceder?"
+thermodynamics,heat,005,,"No verão, a luz do sol da manhã esquenta a margem de um lago e uma brisa começa a soprar no sentido da água para a terra. Qual a explicação correta para essa brisa?"
+thermodynamics,kinetic_theory,001,Cálculo da energia cinética média de cada molécula de um gás ideal,Um recipiente de \num{57.92} \unit[per-mode = symbol]{\liter} contém \num{406.0} \unit[per-mode = symbol]{\milli\gram} de gás hélio a uma pressão barométrica de \num{100.8} \unit[per-mode = symbol]{\kilo\pascal}. Calcule a energia cinética média que cada molécula desse gás possui nessas condições de volume e pressão. (Dica: a unidade de medida comumente utilizada para representar a energia de cada molécula é kJ/mol. Perceba que o valor encontrado será melhor representado nesta unidade.)
+thermodynamics,kinetic_theory,002,Cálculo da massa de propano que foi consumida,"Um cilindro com \num{0.55} \unit[per-mode = symbol]{\metre} de altura e diâmetro interno \num{0.25} \unit[per-mode = symbol]{\metre} armazena propano. O cilindro está inicialmente cheio desse gás com pressão barométrica de \num{1.37} \unit[per-mode = symbol]{\mega\pascal} a temperatura de \num{32.5} \unit[per-mode = symbol]{\celsius}. A temperatura do gás permanece constante à medida que ele é parcialmente retirado do tanque até a pressão final de \num{0.25} \unit[per-mode = symbol]{\mega\pascal}. Determine a massa do propano que foi consumida.(Dica: considere a massa molar do propano igual à 44,1 g/mol.)"
+thermodynamics,kinetic_theory,003,Cálculo da pressão de cada cilindro após dois gases diferentes se misturarem,"Um cilindro de \num{2.35} \unit[per-mode = symbol]{\liter} contém gás hélio à \num{1.0} \unit[per-mode = symbol]{\mega\pascal}, e outro cilindro de \num{21.45} \unit[per-mode = symbol]{\liter} contém gás nitrogênio à \num{0.69} \unit[per-mode = symbol]{\mega\pascal}. Um cientista resolve conectar ambos os cilindros através de uma mangueira de alta pressão. Determine a pressão em cada cilindro no final do processo."
+thermodynamics,kinetic_theory,004,Cálculo da quantidade de mols em um cilindro de propano,O medidor de pressão de um cilindro de \num{15.85} \unit[per-mode = symbol]{\liter} de gás propano à \num{373.0} \unit[per-mode = symbol]{\celsius} registra uma pressão barométrica de \num{5.95} \unit[per-mode = symbol]{atm}. Determine a quantidade de mols de propano presente nesse cilindro.
+thermodynamics,kinetic_theory,005,Cálculo da quantidade de mols à partir da massa do gás,A massa atômica do nitrogênio é \num{14.0067} \unit[per-mode = symbol]{\gram\per\mol}. Determine quantos mols possuem \num{115.0} \unit[per-mode = symbol]{\gram} de gás nitrogênio.
+thermodynamics,kinetic_theory,006,Cálculo da pressão de um botijão para suportar uma determinada temperatura,Um botijão de \num{2.35} \unit[per-mode = symbol]{\liter} está preenchido com \num{10.0} \unit[per-mode = symbol]{\mol} de um gás considerado ideal. Qual pressão esse botijão é capaz de suportar a temperatura de \num{5.95} \unit[per-mode = symbol]{\celsius}?
+thermodynamics,kinetic_theory,007,Cálculo da pressão em cada cilindro após os gases se misturarem,"Dois cilindros iguais, um contendo $O_2$ à \num{1.93} \unit[per-mode = symbol]{atm} e outro $N_2$ à \num{20.0} \unit[per-mode = symbol]{atm} são conectados de modo que ocorra a transferência de gases entre ambos. Determine a pressão em cada cilindro após os gases se misturarem."
+thermodynamics,kinetic_theory,008,Cálculo da energia interna do gás hélio,Uma amostra de \num{2.35} \unit[per-mode = symbol]{\mol} de gás hélio está à temperatura de \num{9900.0} \unit[per-mode = symbol]{\kelvin}. Qual é a energia interna desse gás?
+thermodynamics,kinetic_theory,009,Cálculo da energia interna do gás a partir do volume e pressão,Um recipiente de \num{0.793} \unit[per-mode = symbol]{\cubic\metre} contém \num{10.0} \unit[per-mode = symbol]{\mol} de um gás ideal à pressão de \num{595000.0} \unit[per-mode = symbol]{\pascal}. Determine a energia interna desse gás.
+thermodynamics,matter,001,Cálculo da variação da entropia durante a fusão da água,"O calor de fusão da água é \num80 \unit[per-mode=symbol]{cal\per\gram}. Pretende-se liquefazer \num{758.5} \unit[per-mode = symbol]{\gram} de gelo à \num{0} \unit[per-mode=symbol]{\celsius}. Determine a variação da entropia, no SI, no final dessa mudança de estado. Podemos dizer se ela irá aumentar ou diminuir?"
+thermodynamics,matter,002,Cálculo da temperatura final do chumbo líquido,"Um bloco de chumbo, de massa igual a \num{308.5} \unit[per-mode = symbol]{\gram}, encontra-se no estado sólido à temperatura de \num{327.0} \unit[per-mode = symbol]{\celsius} (seu ponto de fusão), e fornece-se a ele \num{32752.4} cal de calor. Sabendo que o chumbo derreteu totalmente, qual será a temperatura final do chumbo líquido? (O calor específico do chumbo líquido é $\num{0.036}\;cal/g^oC$ e seu calor latente é $\num{5.8}\;cal/g$)."
+thermodynamics,matter,003,Questão conceitual sobre mudança de fase e dilatação da água,"
+        Considere as afirmações abaixo.
+        \begin{itemize}
+        \item[I] Sempre que uma substância absorve calor, sua temperatura aumenta;
+        \item[II] Quando uma substância muda de fase, ela absorve ou cede calor;
+        \item[III] Sempre que uma substância absorve calor, seu volume aumenta.
+        \end{itemize}
+        Classifique como verdadeiro ou falso.
+        "
+waves,mhs,001,Cálculo do comprimento do pêndulo para que oscile com a mesma frequência do oscilador massa-mola,"Um objeto de massa \num{2879.25} \unit{\gram} executa um movimento harmônico simples preso à extremidade de uma mola, cuja constante elástica é de \num{406.0} \unit[per-mode = symbol]{\newton\per\metre}. Qual deve ser o comprimento de um pêndulo simples para que ele oscile com um período igual ao do objeto preso à mola?"
+waves,mhs,002,Cálculo da amplitude a partir da energia do MHS,"Um bloco de massa \num{758.5} \unit{\gram} está executando um movimento harmônico simples sobre uma superfície horizontal sem atrito, preso a uma mola, também horizontal, cuja constante elástica é de \num{600.0} \unit[per-mode = symbol]{\newton\per\metre}. Sabendo-se que a energia do bloco é de \num{5.59} \unit{\joule}, determine a amplitude do movimento harmônico simples executado pelo bloco."
+waves,mhs,003,Cálculo da velocidade a partir da energia do MHS,"Um bloco de massa \num{160.0} \unit{\gram} está executando um movimento harmônico simples sobre uma superfície horizontal sem atrito, preso a uma mola, também horizontal, cuja constante elástica é de \num{500.0} \unit[per-mode = symbol]{\newton\per\metre}. Sabendo-se que a energia do bloco é de \num{1.19} \unit{\joule}, determine a máxima velocidade atingida pelo bloco."
+waves,mhs,004,Cálculo do deslocamento do MHS a partir da função horária da posição,"Um objeto realiza um MHS, cujo deslocamento no SI é dado pela função abaixo,
+	    \begin{align*}
+		    x(t)=(\num{75.85} \unit[per-mode = symbol]{\metre})\cos (\num{20.0}\pi t -\num{1.3}\pi)
+	    \end{align*}
+        Determine o seu deslocamento no instante t = \num{5.5} \unit[per-mode = symbol]{\second} (Dica: Considere $\pi=\num{3.14}$)."
+waves,mhs,005,Cálculo da frequência do sistema massa-mola pendurado na vertical,"Uma mola, de comprimento igual a \num{5.75} \unit[per-mode = symbol]{\centi\metre}, está suspensa verticalmente em um ponto fixo por uma de suas extremidades. Prende-se, em sua extremidade livre um objeto de massa igual a \num{100.0} \unit[per-mode = symbol]{\gram}, verificando-se que na posição de equilíbrio seu comprimento atinge \num{56.25} \unit[per-mode = symbol]{\centi\metre}. Puxando em seguida o objeto, até que o comprimento da mola seja de \num{98.25} \unit[per-mode = symbol]{\centi\metre}, e abandonando-o em seguida ele passa a executar um movimento harmônico simples. Determine a frequência desse movimento."
+waves,mhs,006,Cálculo do período do MHS à partir do gráfico posição versus tempo,"Considere o gráfico abaixo que representa o deslocamento de um bloco conectado a uma mola em um MHS. Determine o período do movimento.
+        
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=12,ymin=-3,ymax=3]
+                    \tkzClip[space=1.5]
+                    \tkzLabelX
+                    \tkzLabelY
+                    \tkzDrawX[right,label=t(s)]
+                    \tkzDrawY[above,label=x(t)]
+                    \tkzFct[domain=0:12,color=red,line width=1.5pt]{2*cos(2*pi*x/2.35)}
+                    \tkzDefPointByFct(1.175)\tkzGetPoint{a}
+                    \tkzDefPointByFct(2.35)\tkzGetPoint{b}
+                    \tkzPointShowCoord(a)
+                    \tkzPointShowCoord(b)
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+waves,waves,001,Questão conceitual sobre as propriedades da onda,"Uma pessoa pressiona a tecla de um piano que corresponde a nota Lá (440 Hz). Podemos dizer que
+        \begin{enumerate}
+            \item [I] O comprimento de onda desse som no ar é 77 cm;
+            \item [II] A frequência desse som ao atingir a orelha de um mergulhador próximo ao piano é menor que 440 Hz;
+            \item [III] Sabendo que a velocidade do som na água é 1450 m/s, o comprimento de onda desse som na água será 3,3 m.
+        \end{enumerate}
+        Podemos dizer que são verdadeiras as afirmações...
+
+        "
+waves,waves,002,Cálculo da intensidade da onda sonora usando interferência das ondas,"O alto-falante de um aparelho de som emite \num{57.92} \unit[per-mode = symbol]{\watt} de potência sonora. Admitindo que o som se distribui uniformemente em todas as direções, determine, num ponto situado a \num{412.0} \unit[per-mode = symbol]{\metre} de distância do alto-falante, o nível sonoro em decibéis."
+waves,waves,003,Cálculo da distância entre dois submarinos usando o eco sonoro na água,"O sonar de um submarino emite ondas sonoras que propaga no mar a uma velocidade de \num{1462.0} \unit[per-mode = symbol]{\metre\per\second}. O eco dessas ondas atinge um submarino inimigo à uma distância D do primeiro. Sabendo que o eco durou \num{20.0} \unit[per-mode = symbol]{\second}, determine o valor D."
+waves,waves,004,Questão conceitual sobre as propriedades da onda a partir do gráfico,"Considere uma onda que se propaga em uma corda para a direita como uma frequência de \num{2.35} \unit[per-mode = symbol]{\hertz}, como mostra a figura abaixo. Marque a alternativa que melhor representa as propriedades da onda.
+
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=12,ymin=-3,ymax=3]
+                    \tkzClip[space=1.75]
+                    \tkzLabelY
+                    \tkzDrawX[right,label=x(m)]
+                    \tkzDrawY[above,label=y(m)]
+                    \draw[->, line width=1.5pt] (6,2.5) --++ (1,0) node[above, midway] {$\vec{v}$};
+                    \tkzFct[domain=0:12,color=red,line width=1.5pt]{2*cos(2*pi*x/5.0)}
+                    \tkzDefPointByFct(10.0)\tkzGetPoint{p1}
+                    \tkzPointShowCoord[xlabel=10.0, above](p1)
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+
+        "
+waves,waves,005,Questão conceitual sobre interferência envolvendo o encontro de duas frentes de ondas bidimensionais,"Os círculos mostrados na figura abaixo representam, em um certo instante, as frentes de onda de duas ondas produzidas na superfície de um líquido pelas fontes $F_1$ e $F_2$. Considere os pontos A, B e C assinalados na figura, das afirmações abaixo, qual delas é verdadeira.
+
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.4,transform shape, font=\Large]
+
+                    \tkzInit[xmin=-8.5,xmax=8.5,ymin=-5,ymax=5]
+                    \tkzClip[space=0.75]
+
+                    \begin{scope}[shift={(0,0)}]
+
+                   		\tkzDefPoints{-3/0/A, 3/0/B, 0/3.75/C, -2.8/4.25/D, 0/-4.5/E}
+
+                        \foreach \l in {3, 6, ..., 18}{
+                            \tkzDefCircle[R](A, \l pt)\tkzGetPoint{x}
+                            \tkzDrawCircle[line width=1pt, color=gray!75](A, x)
+                            \tkzDefCircle[R](B, \l pt)\tkzGetPoint{x}
+                            \tkzDrawCircle[line width=1pt, color=gray!75, dashed](B, x)
+                        }
+
+                        \tkzDrawPoints[size = 10pt](A, B, C, D, E)
+
+                        \tkzText[above = 10pt](A){\huge $F_1$}
+                        \tkzText[above = 10pt](B){\huge $F_2$}
+                        \tkzText[above = 10pt](C){\huge A}
+                        \tkzText[above = 10pt](D){\huge B}
+                        \tkzText[above = 10pt](E){\huge C}
+
+                    \end{scope}
+
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+waves,waves,006,Cálculo da velocidade do som,"Duas pessoas, A e B, estavam interessadas em medir a velocidade do som no ar. Elas se colocaram a \num{33.0} \unit[per-mode = symbol]{\metre} de um paredão e a \num{116.0} \unit[per-mode = symbol]{\metre} uma da outra. O observador B ouviu um monossílabo emitido por A e \num{3.840e-02} \unit[per-mode = symbol]{\second} depois ouviu o seu eco produzido pelo paredão. Baseando-se nessas medidas, qual o valor que as pessoas obtiveram para a velocidade do som?"
+geometric_optics,reflection,001,Cálculo da sombra de um prédio a partir da altura de um menino,"Um menino de \num{1.4} \unit{\metre} de altura produz uma sombra de \num{20.0} \unit{\centi\metre}. No mesmo instante, um prédio próximo ao menino produz uma sombra de \num{35.25} \unit{\metre}. Qual é a altura do prédio?"
+geometric_optics,reflection,002,Questão conceitual sobre a imagem formada em um espelho,Podemos dizer que a imagem formada no espelho abaixo é
+electromagnetism,electrostatic,001,Questão conceitual sobre superfícies equipotenciais,"Considere a figura abaixo onde as linhas trajeçadas representam superfícies equipotenciais. Se colocarmos um elétron próximo a carga Q, quais trechos possíveis o elétron poderá se deslocar?
+        
+        \begin{center}
+            \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+
+            \tkzInit[xmin=-4,xmax=4,ymin=-4,ymax=4]
+            \tkzClip[space=0.5]
+
+            \tkzDefPoints{0/0/O,4/0/P}
+
+            \foreach \x in {3,5,7}{
+                \tkzDefCircle[R](O, \x)\tkzGetPoint{c1}
+                \tkzDrawCircle[R, dashed, color=gray!75](O, c1)
+            }
+
+            \foreach \y in {0,1,...,11}{
+                \tkzDefPointsBy[rotation= center O angle 30*\y](O,P){P1,P2}
+            \draw[->, line width=1.0pt] (O) -- (P2);}
+
+            \tkzDefPoints{3/0/a,4/0/b,0/4/c,0/3/d}
+
+            \tkzDrawPoints[color=red,fill=red,size=0.3cm](a,b,c,d)
+
+            \tkzDrawPoints(O)
+            \tkzLabelPoints[above right,font=\Large](a,b,c,d)
+
+            \node[circle, radius=0.25, ball color=gray!50] (n1) at (0,0) {Q};
+
+            \end{tikzpicture}
+        \end{center}
+        
+        "
+electromagnetism,electrostatic,002,Valor da nova força coulombiana entre duas cargas puntuais,"Duas cargas puntuais estão separadas por uma distância de \num{0.44} \unit{\metre} e se repelem com uma força de \num{0.2} \unit[per-mode = symbol]{\newton}. Suponha que a distância entre elas tenha sido alterada para \num{1.04} \unit[per-mode = symbol]{\metre}, qual é o valor da nova força entre elas?"
+electromagnetism,electrostatic,003,Posição entre duas cargas onde a força coulombiana é zero,"Suponha duas cargas $Q_1$ e $Q_2$, onde $Q_2=\num{1.69} Q_1$, separadas a uma distância de \num{1.0} \unit{\metre}. Considerando um ponto P entre as duas cargas, a que distância P deve estar de $Q_1$ para que o campo elétrico calculado nessa região seja zero?"
+electromagnetism,electrostatic,004,Energia potencial resultante de um conjunto de duas cargas e um elétron,"Considere duas cargas puntuais $Q_1=\num{-6.3}\; \unit{\coulomb}$ e $Q_2=\num{9.0}\; \unit{\coulomb}$, colocadas no ar, e separadas por uma distância de \num{49.95} \unit{\centi\metre}. Se colocarmos um elétron justamente na metade do caminho entre $Q_1$ e $Q_2$, qual será a energia potencial desse conjunto?"
+electromagnetism,electrostatic,005,Força coulombiana entre duas esferas após o equilíbrio eletrostático,"Duas esferas condutoras idênticas estão separadas uma da outra a uma distância de \num{0.22} \unit{\metre}. Uma está eletrizada com uma carga de \num{9.0} \unit{\micro\coulomb}, enquanto que a outra está eletricamente neutra. Em seguida, coloca-se as duas em contato, onde parte da carga de uma esfera é transferida para a outra. Assim que o equilíbrio eletrostático ter sido alcançado, ambas são separadas a mesma distância que estavam inicialmente. Após esse processo, calcule a força que existe entre ambas as cargas."
+electromagnetism,electrostatic,006,Cálculo do novo valor da distância entre duas cargas a partir da força obtida na distância anterior,Duas cargas puntuais estão separadas por uma distância de \num{0.12} \unit{\metre} e se repelem com uma força de \num{0.5} \unit[per-mode = symbol]{\newton}. Suponha que a distância entre elas tenha sido alterada de modo que a força entre elas seja igual à \num{1.32} \unit[per-mode = symbol]{\newton}. Qual é a nova distância que as cargas estão entre si?
+electromagnetism,electrostatic,007,Intensidade do campo elétrico percebido por uma carga de prova,"Uma carga puntiforme cujo valor é \num{0.0} \unit[per-mode = symbol]{\coulomb} encontra-se distante \num{10.0} \unit[per-mode = symbol]{\milli\metre} de outra carga elétrica, que chamamos de carga de prova. Qual é a intensidade do campo elétrico percebido pela carga de prova?"
+electromagnetism,electrostatic,008,Quantidade de portadores de carga elétrica na superfície de uma esfera metálica,"Após um experimento feito em laboratório, foi percebido que uma esfera metálica possui em sua superfície \num{1.585e+01} \unit[per-mode = symbol]{\micro\coulomb} de carga elétrica. Determine a quantidade de portadores de carga liquida que possui em sua superfície."
+electromagnetism,electrostatic,009,Questão conceitual sobre processos de eletrização,"A respeito dos processos de eletrização, marque a alternativa \textbf{ERRADA}"
+electromagnetism,electrostatic,010,Cálcudo da distância entre duas cargas elétricas a partir da força coulombiana,Qual deve ser a distância aproximada entre a carga puntiforme $q_1=\num{-15.5} \unit[per-mode = symbol]{\micro\coulomb}$ e a carga $q_2=\num{26.6} \unit[per-mode = symbol]{\micro\coulomb}$ para que a força eletrostática entre elas tenha um módulo equivalente à \num{28.0} \unit[per-mode = symbol]{\newton}.
+electromagnetism,electrostatic,011,Questão conceitual sobre a formação a centelhas elétricas na lataria de um caminhão,"Para evitar a formação de centelhas elétricas, os caminhões transportadores de gasolina costumam andar com uma corrente arrastando-se pelo chão, porque..."
+electromagnetism,electrostatic,012,Cálculo da carga elétrica a partir do gráfico força versus distância,"Duas cargas elétricas puntiformes positivas Q1 e Q2, no vácuo, interagem mutuamente através de uma força cuja intensidade varia com a distância entre elas (veja o gráfico abaixo). A carga Q2 é \num{3.2}  vezes o valor de Q1. Determine o valor de Q2.
+        
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=10,ymin=0,ymax=5]
+                    \tkzClip[space=1.75]
+                    \tkzDrawX[label=r (m),below,noticks]
+    				\tkzDrawY[label=F ($10^{-2} N$),pos=1.01,above,noticks]
+                	\tkzFct[domain=1:10,color=red,line width=1.5pt]{5/x**2}
+                    \tkzDefPointByFct(1.5)\tkzGetPoint{A}
+                    \tkzPointShowCoord[xlabel=$3.1$,ylabel=$20.3$](A)
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+electromagnetism,electrostatic,013,Parcela de carga elétrica transferida para a segunda esfera,Suponha uma esfera metálica carregada com uma carga Q. Tal esfera entra em contato com uma segunda esfera cujo raio é \num{15.2}  vezes o valor do raio da primeira esfera. Qual parcela da carga Q é transferida para a segunda esfera?
+electromagnetism,electrostatic,014,Cálculo da força coulombiana entre duas cargas elétricas,Duas partículas com cargas elétricas $Q_1= \num{2.2e-16} \unit[per-mode = symbol]{\coulomb}$ e $Q_2=\num{-9.0e-16} \unit[per-mode = symbol]{\coulomb}$ estão separadas no vácuo por uma distância de \num{5.4e-09} \unit[per-mode = symbol]{\metre}. Determine a intensidade da força coulombiana entre elas.
+electromagnetism,electrostatic,015,Questão conceitual sobre a lei de Coulomb e sua relação com o campo elétrico,"Em um ponto no espaço podemos dizer que: (I) Uma carga elétrica não sofre ação da força coulombiana se o campo nesse local for nulo; (II) Pode existir campo elétrico sem que exista força elétrica; (III) Sempre que houver uma carga elétrica, esta sofrerá a ação da força elétrica. Use C para certo e E para errado."
+electromagnetism,electrostatic,016,Cálculo do potencial eletrostático no ponto P de duas cargas elétricas,"Considere duas cargas puntuais que valem em módulo \num{55.0} \unit[per-mode = symbol]{\micro\coulomb}, qual é valor do potencial no ponto P?
+        
+        \begin{center}
+            \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                \tkzInit[xmin=0,xmax=10,ymin=1.5,ymax=-2.5]
+                \tkzDefPoints{0/0/p1, 5/0/p2, 10/0/p3}
+                \tkzDrawPoint[size = 8pt](p1)
+                \node[above = 5pt] at (p1) {P};
+                \node[circle, radius = 0.25, ball color = gray!50, color=black] at (p2) {\huge\textbf{+}};
+                \node[circle, radius = 0.25, ball color = gray!50, color=black] at (p3) {\huge\textbf{-}};
+                \draw[<->, line width = 1pt] ($(p1)+(0, -1)$) -- ($(p2)+(0, -1)$) node [above = 3pt, midway] {$40.6\; cm$};
+                \draw[<->, line width = 1pt] ($(p2)+(0, -1)$) -- ($(p3)+(0, -1)$) node [above = 3pt, midway] {$20.8\; cm$};
+            \end{tikzpicture}
+        \end{center}
+
+        "
+electromagnetism,electrostatic,017,Questão conceitual abordando sentido de corrente real e convencional e corrente efetiva,"A figura abaixo mostra quatro situações nas quais cargas positivas e negativas se movem horizontalmente e a taxa com a qual as cargas se movem. Coloque as situações na ordem da corrente efetiva, começando pela maior.
+
+        \begin{center}
+            \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                \tkzInit[xmin=0,xmax=19,ymin=0,ymax=5]
+                 
+                \begin{scope}[shift={(2,0)}]
+                    \tkzDefPoints{0/2/p1, 0/0/t1}
+                    \draw[->, line width=1pt, color=black] (p1) --++ (2, 0) node [above, midway] {7 C/s};
+                    \node[circle, radius = 0.25, ball color = gray!50, color=black] at (p1) {\textbf{+}};
+                    \tkzText[color=black](t1){(a)}
+                \end{scope}
+
+                \begin{scope}[shift={(7,0)}]
+                    \tkzDefPoints{0/2/p1, 0/4/p2, 0/0/t1}
+                    \draw[->, line width=1pt, color=black] (p1) --++ (2, 0) node [above, midway] {3 C/s};
+                    \draw[->, line width=1pt, color=black] (p2) --++ (-2, 0) node [above, midway] {4 C/s};
+                    \node[circle, radius = 0.25, ball color = gray!50, color=black] at (p1) {\textbf{-}};
+                    \node[circle, radius = 0.25, ball color = gray!50, color=black] at (p2) {\textbf{+}};
+                    \tkzText[color=black](t1){(b)}
+                \end{scope}
+
+                \begin{scope}[shift={(12,0)}]
+                    \tkzDefPoints{0/2/p1, 0/4/p2, 0/0/t1}
+                    \draw[->, line width=1pt, color=black] (p1) --++ (-2, 0) node [above, midway] {2 C/s};
+                    \draw[->, line width=1pt, color=black] (p2) --++ (2, 0) node [above, midway] {5 C/s};
+                    \node[circle, radius = 0.25, ball color = gray!50, color=black] at (p1) {\textbf{+}};
+                    \node[circle, radius = 0.25, ball color = gray!50, color=black] at (p2) {\textbf{-}};
+                    \tkzText[color=black](t1){(c)}
+                \end{scope}
+
+                \begin{scope}[shift={(17,0)}]
+                    \tkzDefPoints{0/2/p1, 0/4/p2, 0/0/t1}
+                    \draw[->, line width=1pt, color=black] (p1) --++ (-2, 0) node [above, midway] {1 C/s};
+                    \draw[->, line width=1pt, color=black] (p2) --++ (-2, 0) node [above, midway] {6 C/s};
+                    \node[circle, radius = 0.25, ball color = gray!50, color=black] at (p1) {\textbf{+}};
+                    \node[circle, radius = 0.25, ball color = gray!50, color=black] at (p2) {\textbf{-}};
+                    \tkzText[color=black](t1){(d)}
+                \end{scope}
+
+            \end{tikzpicture}
+        \end{center}
+
+        "
+electromagnetism,electrostatic,018,Cálculo do campo elétrico resultante de uma distribuição de cargas puntiformes,"A figura abaixo mostra dois conjuntos de partículas carregadas distribuídos ao longo de dois quadrados. O quadrado maior possui lado d e o menor é d/2. Determine a intensidade do campo elétrico no centro dos quadrados se d = \num{59.625} \unit[per-mode = symbol]{\centi\metre} e q = \num{4.6} \unit[per-mode = symbol]{\micro\coulomb}.
+        
+        \begin{center}
+            \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                \tkzInit[xmin=-5,xmax=5,ymin=-5,ymax=5]
+                \tkzClip[space=1.25]
+
+                \tkzDefPoints{-5/-5/A, 5/-5/B, 5/5/C, -5/5/D, 5/0/E, 0/-5/F, 0/5/G, -5/0/H}
+                \tkzDrawPolygon[color=black, line width=1pt, dashed](A, B, C, D)	
+
+                \tkzDrawPoint[size = 10pt](A)	
+                \tkzDrawPoint[size = 10pt](B)	
+                \tkzDrawPoint[size = 10pt](C)	
+                \tkzDrawPoint[size = 10pt](D)	
+                \tkzDrawPoint[size = 10pt](E)	
+                \tkzDrawPoint[size = 10pt](F)	
+                \tkzDrawPoint[size = 10pt](G)	
+                \tkzDrawPoint[size = 10pt](H)	
+
+                \tkzText[below left, color=black](A){+3q}
+                \tkzText[below right, color=black](B){+6q}
+                \tkzText[above right, color=black](C){+3q}
+                \tkzText[above left, color=black](D){+6q}
+                \tkzText[right = 5pt, color=black](E){-q}
+                \tkzText[below = 5pt, color=black](F){-2q}
+                \tkzText[above = 5 pt, color=black](G){-2q}
+                \tkzText[left = 5pt, color=black](H){-2q}
+
+                \tkzDefPoints{-2/-2/A, 2/-2/B, 2/2/C, -2/2/D, 2/0/E, 0/-2/F, 0/2/G, -2/0/H}
+                \tkzDrawPolygon[color=black, line width=1pt, dashed](A, B, C, D)	
+
+                \tkzDrawPoint[size = 10pt](A)	
+                \tkzDrawPoint[size = 10pt](B)	
+                \tkzDrawPoint[size = 10pt](C)	
+                \tkzDrawPoint[size = 10pt](D)	
+                \tkzDrawPoint[size = 10pt](E)	
+                \tkzDrawPoint[size = 10pt](H)	
+
+                \tkzText[below left, color=black](A){+2q}
+                \tkzText[below right, color=black](B){-3q}
+                \tkzText[above right, color=black](C){+2q}
+                \tkzText[above left, color=black](D){-3q}
+                \tkzText[right = 5pt, color=black](E){-q}
+                \tkzText[left = 5pt, color=black](H){-q}
+
+            \end{tikzpicture}
+        \end{center}
+
+        "
+electromagnetism,electrodynamics,001,Número de elétrons por minuto que atravessa a seção reta de um fio condutor,"Uma corrente elétrica de intensidade \num{2.35} \unit[per-mode = symbol]{\ampere} percorre um fio de cobre. Sabendo-se que a carga de um elétron é igual a \num{1.6e-19} $C$, qual é o número de elétrons que atravessa, por minuto, a seção reta desse fio?"
+electromagnetism,electrodynamics,002,Potência desenvolvida por um motor elétrico,"Uma diferença de potencial de 220.0 \unit[per-mode = symbol]{\volt} é aplicada a uma bomba d’água. Sabe-se que em funcionamento, o motor da bomba é percorrido por uma corrente de 2.35 \unit[per-mode = symbol]{\ampere}. Qual é a potência desenvolvida nesse motor?"
+electromagnetism,electrodynamics,003,Gráfico da queda de potencial em um circuito com três resistores,"O gráfico abaixo mostra a queda de potencial em um ramo de um circuito contendo uma bateria de f.e.m. \num{126.5} \unit[per-mode = symbol]{\volt} e três resistores ligados em série. A corrente que atravessa cada resistor tem o valor de \num{6.0} \unit[per-mode = symbol]{\ampere}. Determine o valor da maior resistência entre $R_1$, $R_2$ e $R_3$.
+
+\begin{center}
+    \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+        \tkzInit[xmin=-1,xmax=10,ymin=-2,ymax=5]
+        \tkzClip[space=1]
+        \tkzDefPoints{1/-1/A, 2/-1/B, 3/-1/C, 5/-1/D, 7/-1/E, 9/-1/F}
+        \draw (B) to[battery, label=$\varepsilon$, -*] (A);
+        \draw (D) to[resistor, label=$R_1$] (C);
+        \draw (E) to[resistor, label=$R_2$] (D);
+        \draw (F) to[resistor, label=$R_3$, *-] (E);
+        \draw (B) -- (C);
+        \tkzDrawX[label=]
+        \tkzDrawY[label={V}]
+        \def\va{4}
+        \def\vb{3}
+        \def\vc{2}
+        \tkzDefPoints{0/0/a, 1/0/A, 2/\va/B, 3.5/\va/C, 4.5/\vb/D, 5.5/\vb/E, 6.5/\vc/F,  7.5/\vc/G, 8.5/0/H, 9/0/I}
+        \draw[line width=2pt, color=red] (a) -- (A);
+        \draw[line width=2pt, color=red] (A) -- (B);
+        \draw[line width=2pt, color=red] (B) -- (C);
+        \draw[line width=2pt, color=red] (C) -- (D);
+        \draw[line width=2pt, color=red] (D) -- (E);
+        \draw[line width=2pt, color=red] (E) -- (F);
+        \draw[line width=2pt, color=red] (F) -- (G);
+        \draw[line width=2pt, color=red] (G) -- (H);
+        \draw[line width=2pt, color=red] (H) -- (I);
+        \draw[dashed] (B) -- (0,\va);
+        \draw[dashed] (D) -- (0,\vb);
+        \draw[dashed] (F) -- (0,\vc);
+        \tkzText[left](0,\va){$\varepsilon$}
+        \tkzText[left](0,\vb){82.0}
+        \tkzText[left](0,\vc){27.95}
+    \end{tikzpicture}
+\end{center}
+        "
+electromagnetism,electrodynamics,004,Cálculo da eficiência de um aquecedor elétrico,"Um aquecedor elétrico de imersão ligado a uma fonte de corrente contínua de \num{126.5} \unit[per-mode = symbol]{\volt}, demora \num{60.0} \unit[per-mode = symbol]{\minute} para aquecer \num{11.22} \unit[per-mode = symbol]{\liter} de água até a fervura, partindo da temperatura de \num{47.25} \unit[per-mode = symbol]{\celsius}. A intensidade da corrente é de \num{4.38} \unit[per-mode = symbol]{\ampere}. Qual é a eficiência do aquecedor? (A eficiência é a porcentagem da energia que é utilizada no aquecimento da água)."
+electromagnetism,electrodynamics,005,Cálculo da intensidade da corrente elétrica em um circuito misto com quatro resistores,"A figura abaixo mostra um circuito elétrico formado por uma bateria e quatro resistores. Determine a intensidade da corrente elétrica que atravessa a bateria.
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=10,ymin=0,ymax=5]
+                    \tkzClip[space=0.75]
+                    \tkzDefPoints{0/5/ba, 10/5/bb, 1/2/r1a, 4/2/r1b, 1/0/r2a, 4/0/r2b, 6/2/r3a, 9/2/r3b, 6/0/r4a, 9/0/r4b}
+                    \tkzDefPoints{0/1/A, 5/1/B, 10/1/C}
+                    \draw (bb) to[battery, label=$\normalsize \num{2.35} V \atop \num{10.0} \Omega$, -*] (ba);
+                    \draw (r1a) to[resistor, label=$\num{5.95} \Omega$] (r1b);
+                    \draw (r2a) to[resistor, label=$\num{6.85} \Omega$, *-] (r2b);
+                    \draw (r3a) to[resistor, label=$\num{4.38} \Omega$, *-] (r3b);
+                    \draw (r4a) to[resistor, label=$\num{5.95} \Omega$, *-] (r4b);
+                    \draw (ba) -- (A);
+                    \draw (bb) -- (C);
+                    \draw (A) -- (r1a);
+                    \draw (A) -- (r2a);
+                    \draw (r1b) -- (B);
+                    \draw (r2b) -- (B);
+                    \draw (B) -- (r3a);
+                    \draw (B) -- (r4a);
+                    \draw (C) -- (r3b);
+                    \draw (C) -- (r4b);
+                \end{tikzpicture}
+            \end{center}
+        "
+electromagnetism,electrodynamics,006,Questão conceitual sobre a d.d.p. entre os terminais de uma bateria,"De acordo com a figura abaixo, marque a alternativa correta.
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=0,ymin=-1,ymax=3]
+                    \tkzGrid
+                    \tkzClip[space=2]
+                    \def\lx{8}
+                    \def\ly{1.5}
+
+                    \draw (0,-2) to (0,0);
+                    \draw(0,\ly) to [/tikz/circuitikz/bipoles/length=15pt,R,l_=$r$] (0,0);
+                    \draw (0,\ly+1) to [american, battery, v_>=$\varepsilon$] (0,\ly);
+                    \draw[dashed] (-1.5,0) rectangle (1.5,\ly+1.5);
+                    \draw (0,\ly+1) to (0,\ly+3);
+                    \draw[->, line width=1.5pt] (0.25,-1.75) --++ (0,1) node[right, midway]{i};
+                    \draw[->, line width=1.5pt] (0.25,\ly+2) --++ (0,1) node[right, midway]{i};
+
+                    \tkzDefPoints{0/-2/A, 0/\ly+3/B}
+                    \tkzDrawPoint(A)
+                    \tkzLabelPoint[below](A){A}
+                    \tkzDrawPoint(B)
+                    \tkzLabelPoint[above](B){B}
+               \end{tikzpicture}
+            \end{center}
+        "
+electromagnetism,electrodynamics,007,Resistência equivalente em um circuito misto,"Considere o circuito abaixo. Sabendo que $R_1=\num{6.17}\; \unit[per-mode = symbol]{\ohm}$, $R_2=\num{9.2}\; \unit[per-mode = symbol]{\ohm}$, $R_3=\num{8.4}\; \unit[per-mode = symbol]{\ohm}$ e $R_4=\num{12.1}\; \unit[per-mode = symbol]{\ohm}$ determine a resistência equivalente.
+            \begin{center}
+                 \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=10,ymin=0,ymax=6]
+                    \tkzClip[space=1]
+                    \tkzDefPoints{0/0/A, 0/6/B, 10/6/C, 10/0/D}
+                    \tkzDefPoints{6/0/r1a, 6/6/r1b}
+                    \draw (r1b) -- (C);
+                    \draw (D) -- (r1a);
+                    \draw[color=black] (B) to [american, battery, v_>=$\varepsilon$] (A);
+                    \draw[color=black] (B) to [R=$R_{1}$, *-*] (r1b);
+                    \draw[color=black] (r1a) to [R=$R_{2}$, *-*] (r1b);
+                    \draw[color=black] (D) to [R=$R_{3}$, *-*] (C);
+                    \draw[color=black] (A) to [R=$R_{4}$, *-*] (r1a);
+                \end{tikzpicture}
+            \end{center}
+        "
+electromagnetism,electrodynamics,008,Consumo mensal de energia elétrica de um chuveiro sabendo a sua potência real,"Um chuveiro elétrico possui uma potência real de \num{1750.0} \unit[per-mode = symbol]{\watt}. Determine o consumo mensal de energia elétrica, considerando que uma pessoa gasta em média \num{40.0} \unit[per-mode = symbol]{\minute} para tomar um banho."
+electromagnetism,electrodynamics,009,Cálculo da intensidade de corrente elétrica em um condutor,Por um fio metálico atravessam \num{1.5085e+20}  elétrons durante \num{50.0} \unit[per-mode = symbol]{\second}. Determine a corrente elétrica nesse condutor metálico.
+electromagnetism,electrodynamics,010,Cálculo da resistência elétrica de um condutor que dissipa uma certa quantidade de calor,"Das alternativas abaixo, marque aquela que apresenta corretamente a resistência elétrica, em Ohms, de um condutor que dissipa \num{158.5} \unit[per-mode = symbol]{\joule} de calor quando percorrido por uma corrente elétrica de \num{60.0} \unit[per-mode = symbol]{\ampere} durante um tempo de \num{66.45} \unit[per-mode = symbol]{\second}."
+electromagnetism,electrodynamics,011,Intensidade de corrente elétrica que atravessa um condutor,Por um fio condutor passam \num{1.509e+21}  portadores de carga elétrica durante \num{10.0} \unit[per-mode = symbol]{\second}. Calcule a intensidade de corrente elétrica que atravessa esse condutor.
+electromagnetism,electrodynamics,012,Cálculo da corrente em uma associação de resistores em paralelo,"Calcule a corrente elétrica no circuito abaixo.
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=-1.5,xmax=10,ymin=0,ymax=6]
+                    \tkzClip[space=1.5]
+                    \tkzDefPoints{0/0/A, 0/6/B, 10/6/C, 10/0/D}
+                    \tkzDefPoints{6.5/6/r1a, 0/6/r1b, 6.5/0/r1c, 3/0/r1d, 3/6/r1e}
+                    \draw (r1b) -- (C);
+                    \draw (D) -- (A);
+                    \draw[color=black] (B) to [american, battery, v_>= 38.55 V] (A);
+                    \draw[color=black] (r1c) to [R=$55.45\;\Omega$, *-*] (r1a);
+                    \draw[color=black] (D) to [R=$65.35\;\Omega$, *-*] (C);
+                    \draw[color=black] (r1d) to [R=$100.0\;\Omega$, *-*] (r1e);
+                    \tkzDefPoint(0.5, 4){i}
+                    \draw[->, line width=1.5pt] (i) --++ (0, 1) node [right = 0.25, midway] {\huge i};
+                \end{tikzpicture}
+            \end{center}
+        "
+electromagnetism,electrodynamics,013,Valor da nova resistência a partir do novo valor do diâmetro do fio,"Se dobrarmos o diâmetro de um fio, por quanto a sua resistência irá mudar?"
+electromagnetism,electrodynamics,014,Consumo mensal de energia elétrica de um chuveiro,"Um chuveiro elétrico residencial tem o seu seletor de temperatura colocado na posição inverno. Nessa posição, a potência dissipada pelo aparelho, em forma de calor, é de \num{5792.5} \unit[per-mode = symbol]{\watt}. Assumindo que o aparelho permaneça ligado por \num{51.0} \unit[per-mode = symbol]{\minute} por dia, assinale entre as alternativas abaixo aquela que indica a quantidade mensal de energia dissipada."
+electromagnetism,electrodynamics,015,Cálculo da d.d.p. de uma pilha considerando a sua resistência interna,Uma pilha de lanterna possui uma f.e.m. de \num{3.1} \unit[per-mode = symbol]{\volt} e sua resistência interna vale \num{0.9} \unit[per-mode = symbol]{\ohm}. Qual é a diferença de potencial entre os polos dessa pilha se ela fornecer uma corrente de \num{0.78} \unit[per-mode = symbol]{\ampere} a uma lâmpada?
+electromagnetism,electrodynamics,016,Cálculo da resistência interna de uma bateria,"No circuito abaixo, verifica-se que quando a chave C está aberta, a leitura do voltímetro é \num{5.33} \unit[per-mode = symbol]{\volt}. Ligando-se a chave C, o amperímetro indica \num{15.0} \unit[per-mode = symbol]{\ampere} e o voltímetro passa a indicar \num{2.54} \unit[per-mode = symbol]{\volt}. Qual é a resistência interna da bateria?
+
+            \begin{center}
+                \begin{tikzpicture}[scale=0.75,transform shape, font=\Large]            
+                \tkzInit[xmin=0,xmax=7,ymin=0,ymax=5]
+                \tkzClip[space=0.5]
+                \tkzDefPoints{0/0/O, 0/3/p0, 1/3/p1, 2/3/p2, 4/3/p3, 7/0/p4, 7/3/p5, 1/4.5/p6, 4/4.5/p7}
+                \draw (O) -- (p0) to (p1);
+                \draw(p2) to [/tikz/circuitikz/bipoles/length=15pt,R,l_=$r$] (p1);
+                \draw (p3) to [american, battery, v_>=$\varepsilon$] (p2);
+                \draw(O) to [R=$R$, *-*] (p4);
+                \draw(p3) to [ospst=$C$, *-*] (p5);
+                \draw (p4) to[ammeter] (p5);
+                \draw (p1) -- (p6) to [voltmeter] (p7) to (p3);
+                \end{tikzpicture}
+            \end{center}
+        "
+electromagnetism,electrodynamics,017,Potência ideal e efetiva de uma bateria,"Uma bateria, cuja f.e.m. é 6 V e cuja resistência interna é $0,2\;\Omega$, está ligada a uma lâmpada, fornecendo-lhe uma corrente de 5 A. Quais são a potência que a bateria transfere às cargas que passam através dela e a potência efetiva que ela está fornecendo à lâmpada?"
+electromagnetism,magnetism,001,Questão conceitual sobre a trajetória de uma partícula carregada sob ação de uma força magnética,"A figura abaixo mostra a trajetória de uma partícula eletricamente carregada. $\vec{{v}}$ representa a velocidade atravessando um campo magnético $\vec{{B}}$. Determine a sua trajetória devido a ação da força magnética atuando sobre ela.
+        
+        \begin{center}
+            \begin{minipage}[c]{0.5\linewidth}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+
+                    \tkzInit[xmin=-3,xmax=3,ymin=-3,ymax=3]
+                %	\tkzGrid[color=gray!20]
+                    \tkzClip[space=1.0]
+
+                    \tkzDefPoints{0/0/O,4/0/P}
+
+                    \foreach \x in {-2.5,-1.5,...,2.5}{
+                        \foreach \y in {-2.5,-1.5,...,2.5}{
+                        \tkzDefPoint(\x,\y){B}
+                        \tkzText(B){x}
+                }
+                }
+
+                \draw[->, line width=1pt, color=red] (0,0) --++ (0,1.5) node [above] {$\vec{v}$};
+
+                    \node[circle, radius=0.25, ball color=gray!40] (n1) at (0,0) {$\textbf{+}$};
+
+                    \tkzText[above right=0.25cm](B){$\vec{B}$}
+
+                \end{tikzpicture}
+            \end{minipage}
+        \end{center}
+
+        "
+electromagnetism,magnetism,002,Cálculo do raio da trajetória de um próton em um campo magnético,"Um próton realiza um movimento retilíneo com a velocidade \num{3087500.0} \unit[per-mode = symbol]{\metre\per\second}. Deseja-se que ele altere a sua trajetória para um movimento circular. Para isso, foi aplicado um campo magnético de intensidade equivalente à \num{0.46} \unit[per-mode = symbol]{\tesla} perpendicular a seu movimento. Calcule o raio da sua trajetória circular devido a força magnética."
+electromagnetism,magnetism,003,Questão conceitual sobre a orientação do campo magnético para produzir uma força magnética em uma partícula carregada em movimento,"Uma partícula eletrizada positivamente é lançada horizontalmente para a direita, com uma velocidade $\vec{{v}}$ como mostra a figura abaixo. Deseja-se aplicar à partícula um campo magnético $\vec{{B}}$. perpendicular à $\vec{{v}}$, de tal modo que a força magnética equilibre o peso da partícula. A direção e o sentido do vetor $\vec{{B}}$ para que isso aconteça é
+        
+        \begin{center}
+            \begin{minipage}[c]{0.5\linewidth}
+                \begin{tikzpicture}[scale=1, transform shape, font=\Large]
+
+                    \tkzInit[xmin=-1,xmax=2,ymin=-2,ymax=1]
+                    \tkzClip[space=0.5]
+
+                    \tkzDefPoints{0/0/O, 4/0/P}
+
+                    \draw[->, line width=2pt, color=red] (O) --++ (2, 0) node [above] {$\vec{v}$};
+
+                    \draw[->, line width=2pt, color=red] (O) --++ (0, -2) node [right] {$m\vec{g}$};
+
+                    \node[circle, radius=0.25, ball color=gray!40] (n1) at (0,0) {$\textbf{+}$};
+
+                \end{tikzpicture}
+            \end{minipage}
+        \end{center}
+
+        "
+electromagnetism,magnetism,004,Cálculo da força magnética atuando em uma carga elétrica," Uma partícula de carga elétrica de \num{5.793} \unit[per-mode = symbol]{\micro\coulomb} é lançada em um campo magnético uniforme de \num{0.46} \unit[per-mode = symbol]{\tesla}, com uma velocidade de \num{10800.0} \unit[per-mode = symbol]{\metre\per\second}. Calcule a força magnética atuando na carga se o ângulo entre a velocidade e o campo magnético for de \num{23.0}\unit[per-mode = symbol]{\degree}."
+electromagnetism,induced_magnetic_field,001,,"Uma partícula de carga \num{150.85} \unit[per-mode=symbol]{\micro\coulomb} é lançada em um campo magnético uniforme de \num{3.0} \unit[per-mode=symbol]{\tesla} , com uma velocidade de \num{554.5} \unit[per-mode=symbol]{\metre\per\second}. Calcule o valor da força magnética atuando na carga se o ângulo entre a velocidade e o campo magnético for \num{58.5} \unit[per-mode=symbol]{\degree}."
+electromagnetism,induced_magnetic_field,002,,"A figura abaixo mostra a seção reta de dois fios retilíneos muito longos, ambos percorridos por uma corrente de \num{16.0} \unit{\ampere} orientada para fora do papel. A distância entre os fios é $d_1=\num{1.0}$ \unit{\metre} e a distância entre o ponto P, equidistante dos dois fios, e o ponto médio do segmento de reta que liga os fios é $d_2=\num{0.59}$ \unit{\metre}. Determine o módulo do campo magnético total produzido no ponto P.
+
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=10,ymin=-3,ymax=3]
+                    \tkzClip[space=1.75]
+                    \tkzDefPoints{0/-3/A,0/3/B,0/0/O,10/0/P}
+                    \draw[dashed] (A) -- (B) node [left=0.5, midway]{\Huge $d_1$};
+                    \draw[dashed] (O) -- (P) node [above=0.5, midway]{\Huge $d_2$};
+                    \tkzDrawPoints[fill=gray!50, size = 0.5cm](A, B, P)
+                    \tkzText[left=0.5](A){\Huge $i_1$}
+                    \tkzText[left=0.5](B){\Huge $i_2$}
+                    \tkzText[above=0.75](P){\Huge P}
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+electromagnetism,induced_magnetic_field,003,,"Considere dois fios retilíneos de comprimento L=\num{0.8} \unit{\metre}, ambos percorridos por uma corrente i de \num{50.0} \unit{\ampere}. A distância entre os fios é  $d=\num{6.4}$ \unit{\centi\metre}. Determine a força atuando em cada fio.
+
+        \begin{center}
+            \begin{minipage}[c]{0.5\linewidth}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=5,ymin=0,ymax=8]
+                    \tkzClip[space=1.25]
+                    \tkzDefPoints{0/0/O, 5/0/A}
+                    \draw[fill=gray!50] (O) rectangle ++(0.3,8);
+                    \draw[fill=gray!50] (A) rectangle ++(-0.3,8);
+                    \tkzDefPoints{0/8/B, 5/8/C}
+                    \draw (A) to[dim arrow={label=d}] (O);
+                    \draw (O) to[dim arrow={label=L}] (B);
+                    \tkzDefPoints{0.75/3/D, 4.25/3/E}
+                    \draw[->, line width=1.5pt] (D) --++ (0,2) node [right, midway] {\Huge i};
+                    \draw[->, line width=1.5pt] (E) --++ (0,2) node [left, midway] {\Huge i};
+                \end{tikzpicture}
+            \end{minipage}
+        \end{center}
+
+        "
+electromagnetism,induced_magnetic_field,004,,"A figura mostra mostra os vetores velocidade de quatro elétrons nas vizinhanças de um fio percorrido por uma corrente i. As velocidades têm módulos iguais e a velocidade $\vec{v}2$ aponta para dentro do papel. Os elétrons 1 e 2 estão à mesma distância do fio, e o mesmo acontece com os elétrons 3 e 4. Indique qual elétron não sofrerá ação de alguma força magnética atuando nele.
+        
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tikzstyle{s1}=[circle, radius=0.1, ball color=gray!50];
+                    \tkzInit[xmin=0,xmax=10,ymin=-2,ymax=5]
+                    \tkzClip[space=0.25]
+                    \tkzDefPoints{0/0/O, 3/-1/A}
+                    \draw[fill=gray!50] (O) rectangle ++(10,0.3);
+                    \draw[->, line width=1.pt] (A) --++ (3,0) node[above, midway] {i};
+                    \tkzDefPoints{2/3/v1, 4/3/v2, 6/3/v3, 8/3/v4}
+                    \draw[->, line width=1.pt] (v1) --++ (-2,0) node[above, midway] {$\vec{v}_1$};
+                    \draw[s1] (v1) circle [radius=0.3cm] node {\huge -};
+                    \draw[->, line width=1.pt] (v2) --++ (0,-2) node[right, midway] {$\vec{v}_2$};
+                    \draw[s1] (v2) circle [radius=0.3cm] node {\huge -};
+                    \draw[->, line width=1.pt] (v3) --++ (0,2) node[right, midway] {$\vec{v}_3$};
+                    \draw[s1] (v3) circle [radius=0.3cm] node {\huge -};
+                    \draw[->, line width=1.pt] (v4) --++ (0,0) node[above=0.5] {$\vec{v}_4$};
+                    \draw[s1] (v4) circle [radius=0.3cm] node {\huge $\times$};
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+        
+        "
+electromagnetism,electromagnetic_indution,001,Cálculo da corrente elétrica induzida em uma espira quadrada a partir do gráfico de B(t) versus t,"O gráfico mostra a dependência com o tempo de um campo magnético espacialmente uniforme que atravessa perpendicularmente a área de uma espira quadrada de \num{30.88} \unit{\centi\metre} de lado. Sabe-se que a resistência elétrica do fio, do qual é formada a espira, é \num{0.52} \unit{\ohm}. Calcule a corrente elétrica induzida na espira entre os instantes \num{7.4} \unit{\second} e \num{12.25} \unit{\second}.
+        
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=10,ymin=0,ymax=5]
+                    \tkzClip[space=1.75]
+                    \tkzDrawX[right,label={t(s)}]
+                    \tkzDrawY[above,label={B(T)}]
+                    \tkzFct[domain=0:3, color=red, line width=1.5pt]{x}
+                    \tkzDefPointByFct[ref=A](3)
+                    \tkzPointShowCoord(A)
+                    \tkzFct[domain=3:7, color=red, line width=1.5pt]{3}
+                    \tkzDefPointByFct[ref=B](7)
+                    \tkzPointShowCoord(B)
+                    \tkzFct[domain=7:10, color=red, line width=1.5pt]{10-x}
+                    \tkzDefPointByFct[ref=C](7)
+                    \tkzPointShowCoord(C)
+                    \tkzDefPoints{3/0/D,7/0/E,0/3/F,10/0/G}
+                    \tkzText[below, color=black](D){3,0}
+                    \tkzText[below, color=black](E){7.4}
+                    \tkzText[below, color=black](G){12.25}
+                    \tkzText[left, color=black](F){4.6}
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+electromagnetism,electromagnetic_indution,002,Cálculo da f.e.m. induzida em uma barra em movimento,"As extremidades de uma barra metálica de comprimento \num{11.75} \unit{\centi\metre} estão sendo deslizadas ao longo de um fio em forma de U como mostra a figura abaixo. Todo o conjunto está inserido em um campo magnético uniforme $\vec{B}$, cuja intensidade é de \num{50.0} \unit{\tesla}. Sabendo que a velocidade da barra é de \num{0.54} \unit[per-mode = symbol]{\metre\per\second}, determine a f.e.m. induzida na espira.
+        
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=11,ymin=0,ymax=7]
+                    \tkzClip[space=1.75]
+                    \tkzDefPoints{1/1/A1, 9.5/1/A2, 1/5/A3, 9.5/5/A4}
+                    \draw[color=brown!50, line width=1.5pt] (A1) -- (A2);
+                    \draw[color=brown!50, line width=1.5pt] (A3) -- (A4);
+                    \draw[color=brown!50, line width=1.5pt] (A1) -- (A3);
+                    \tkzDefPoints{4/1/A5, 4/5/A6}
+                    \draw[color=gray, line width=2.5pt] (A5) -- (A6);
+                    \tkzDefPoints{2/1/v1, 2.5/5/v2, 1/3/v3, 4/3/v4}
+                    \draw[->, color=red, line width=1.5pt] (v1) --++ (1,0) node [below, midway] {i};
+                    \draw[->, color=red, line width=1.5pt] (v2) --++ (-1,0) node [above, midway] {i};
+                    \draw[->, color=red, line width=1.5pt] (v3) --++ (0,-1) node [left, midway] {i};
+                    \draw[->, color=black, line width=3pt] (v4) --++ (1,0) node [right] {\Huge$\vec{v}$};
+                    \tkzDefPoints{9/1.5/t1}
+                    \tkzText[above right](t1){\Huge $\vec{B}$}
+                    \foreach \l in {0, 1.5, ..., 11}{
+                        \foreach \h in {0, 1.5, ..., 7}{
+                            \tkzDefPoint(\l,\h){p}
+                            \tkzText(p){x}
+                        }
+                    }
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+electromagnetism,electromagnetic_indution,003,Cálculo da f.e.m. induzida em uma espira a partir da variação do fluxo magnético com a aproximação de um íman,"Suponha que um ímãn a uma certa distância de uma espira esteja estabelecendo através dela um fluxo de \num{0.15} \unit[per-mode = symbol]{\weber}. Aproximando rapidamente o ímãn da espira, o fluxo passa a valer \num{1.0} \unit[per-mode = symbol]{\weber}. Se essa variação ocorreu num intervalo de \num{0.06} \unit[per-mode = symbol]{\second}, qual é a intensidade da f.e.m. induzida nessa espira?"
+electromagnetism,electromagnetic_indution,004,Questão conceitual sobre a f.e.m. induzida em uma espira a partir do gráfico B(t) versus t,"O gráfico mostra o módulo B(t) de um campo magnético uniforme que atravessa uma bobina condutora, com a direção do campo perpendicular ao plano da bobina. Marque a alternativa que melhor representa a f.e.m. e a corrente induzida nessa bobina.
+        
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=10,ymin=0,ymax=5]
+                    \tkzClip[space=1.75]
+                    \tkzDrawX[right,label={t(s)}]
+                    \tkzDrawY[above,label={B(T)}]
+                    \tkzFct[domain=0:3, color=red, line width=1.5pt]{4*x/3}
+                    \tkzDefPointByFct[ref=A](3)
+                    \tkzPointShowCoord(A)
+                    \tkzFct[domain=3:5, color=red, line width=1.5pt]{4}
+                    \tkzDefPointByFct[ref=B](5)
+                    \tkzPointShowCoord(B)
+                    \tkzFct[domain=5:10, color=red, line width=1.5pt]{8-x*4/5}
+                    \tkzDefPointByFct[ref=C](5)
+                    \tkzPointShowCoord(C)
+                    \tkzDefPoints{3/0/D,5/0/E,0/4/F,10/0/G}
+                    \tkzText[below, color=black](D){3,0}
+                    \tkzText[below, color=black](E){5,0}
+                    \tkzText[below, color=black](G){10,0}
+                    \tkzText[left, color=black](F){$B_{\text{máx}}$}
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+        
+        "
+electromagnetism,electromagnetic_indution,005,Questão conceitual sobre a queda do ímã dentro de um solenóide,Um solenóide é colocado em pé (na vertical) e em seguida um pedaço de ímã é solto na parte de cima e no seu eixo central. O que iremos observar em seguida?
+electromagnetism,maxwell_equations,001,Cálculo da taxa de energia que uma placa irá receber,"O Sol possui uma potência de \num{3.9e+26} \unit[per-mode = symbol]{\watt}, a distância entre o Sol e uma espaçonave orbitando em torno do Sol é de \num{2.006e+12} \unit[per-mode = symbol]{\metre}. Considerando que a superfície da espaçonave possui uma área igual a \num{1.080e+02} \unit[per-mode = symbol]{\square\metre}, afim de absorver perpendicularmente os raios de Sol, qual deverá ser a quantidade de energia por segundo que essa espaçonave irá receber?"
+electromagnetism,maxwell_equations,002,Cálculo da intensidade da onda de rádio que chega em um observador,Uma estação de rádio possui a potência de \num{8.35} \unit[per-mode = symbol]{\kilo\watt}. Determine a intensidade das ondas de rádio dessa estação que chega ao ouvinte que está a uma distância de \num{100.0} \unit[per-mode = symbol]{\kilo\metre}.
+quantum_physics,blackbody_radiation,001,Cálculo da temperatura da estrela a partir da máxima radiância emitida,A análise espectral emitida por uma estrela indica que o comprimento de onda de máxima radiância emitida por ela é de \num{2.35} \unit[per-mode = symbol]{\nano\metre}. Determine a temperatura dessa estrela.
+quantum_physics,blackbody_radiation,002,Cálculo do tamanho da estrela a partir da potência irradiada,"A medida do comprimento de onda para a qual a radiação de uma estrela é máxima indica que a temperatura da superfície é de \num{6815.0} \unit[per-mode = symbol]{\kelvin}. Se a potência irradiada pela estrela, de acordo com as medições feitas por instrumentos aqui na Terra, é de \num{100.0}  vezes a potência irradiada pelo Sol, qual é o raio dessa estrela? (Considere que a temperatura da superfície do Sol é de 5800 K)"
+quantum_physics,blackbody_radiation,003,Cálculo da potência irradiada de uma placa a partir da temperatura,Determine a potência irradiada por uma placa de \num{7.585} \unit[per-mode = symbol]{\square\metre} a uma temperatura de \num{10000.0} \unit[per-mode = symbol]{\kelvin}
+quantum_physics,particle_wave_duality,001,Cálculo da energia cinética dos elétrons no efeito fotoelétrico,"A função trabalho do sódio é \num{2.28} \unit[per-mode = symbol]{\electronvolt}, determine a energia cinética dos elétrons que são emitidos desse material quando ele é bombardeado por radiação com comprimento de onda de \num{540.0} \unit[per-mode = symbol]{\nano\metre}."
+quantum_physics,particle_wave_duality,002,Cálculo do comprimento de onda de uma bola de beisebol,Calcule o comprimento de onda de uma bola de basebol que possui uma massa de \num{115.0} \unit{\gram} a uma velocidade de \num{200.0} \unit[per-mode = symbol]{\kilo\metre\per\hour}. Seria possível observar os efeitos da física quântica nesse caso?
+quantum_physics,particle_wave_duality,003,Cálculo da quantidade de fótons da luz vermelha que incide em um átomo de potássio,"O comprimento de onda da luz vermelha é \num{700} \unit{\nano\metre}. Determine a quantidade de fótons por segundo incidindo em cada átomo de um catodo de potássio de um feixe de luz vermelha de intensidade \num{0.24} \unit[per-mode = symbol]{\watt\per\square\metre}, considerando que o átomo de potássio possui um raio de \num{2.2} \unit{\nano\metre}."
+quantum_physics,particle_wave_duality,004,Cálculo do comprimento de onda de um feixe de elétrons acelerados por uma d.d.p.,"Determine o comprimento de onda de um elétron, inicialmente em repouso, em um feixe de elétrons acelerados por uma d.d.p. de \num{43.2} \unit[per-mode = symbol]{\volt}."
+quantum_physics,particle_wave_duality,005,Cálculo do comprimento de onda de uma radiação que incide em átomos de sódio,Um material feito de sódio possui uma função trabalho de \num{2.28} \unit[per-mode = symbol]{\electronvolt}. Radiação monocromática incide no material removendo elétrons com energia cinética equivalente à \num{50.0} \unit[per-mode = symbol]{\electronvolt}. Determine o comprimento de onda dessa radiação.
+quantum_physics,particle_wave_duality,006,Cálculo do comprimento de onda de de Broglie de elétrons em movimento em um condutor,"Elétrons livres em um condutor estão sujeitos a um campo elétrico externo, e dessa maneira eles adquirem um movimento com a velocidade de deriva de \num{835000.0} \unit[per-mode = symbol]{\metre\per\second}. Determine o comprimento de onda de De Broglie neste caso."
+quantum_physics,particle_wave_duality,007,Questão conceitual a respeito do efeito fotoelétrico,"A respeito do efeito fotoelétrico, podemos dizer que..."
+quantum_physics,particle_wave_duality,008,Cálculo da energia do fóton a partir do comprimento de onda da radiação,Uma luz possui um comprimento de onda de \num{575.04} \unit[per-mode = symbol]{\nano\metre}. Determine a energia de cada fóton emitido por ele (Dica: considere $hc=1240\;eV\cdot nm$).
+quantum_physics,uncertainty_principle,001,,"Do princípio da incerteza de Heisenberg, para uma partícula com energia $E=p^2/2m$ mostre que $\Delta x\Delta p\approx h$ resulta em $\Delta E\Delta t\approx h$ se..."
+quantum_physics,uncertainty_principle,002,Cálculo da incerteza na medição do elétron confinado em um fulereno,Determine a incerteza que encontraremos na medição do momento de um elétron confinado em um fulereno com o diâmetro de \num{29.175} \unit[per-mode = symbol]{\nano\metre}.
+quantum_physics,uncertainty_principle,003,Cálculo da incerteza da energia da radiação emitida por um núcleo,"Quando um núcleo atômico excitado decai, ele emite radiação. Considerando um caso hipotético de um estado excitado de um núcleo com tempo de vida média de \num{150.0009} \unit[per-mode = symbol]{\pico\second}, determine a incerteza mínima no valor da energia da radiação produzida."
+quantum_physics,uncertainty_principle,004,,"Considerando o número z= $\num{15.85}\left(\cos\num{6.28}+i\sin\num{6.28}\right)$, determine $\left|z\right|^2$."
+quantum_physics,uncertainty_principle,005,,"De acordo com o princípio da incerteza de Heisenberg, se reduzirmos pela metade a incerteza na medição da localização da partícula, inevitavelmente teremos que a incerteza na medição do momento será..."
+quantum_physics,uncertainty_principle,006,,"Considere o pacote de onda formado pela superposição de duas ondas com comprimentos de onda diferentes. Podemos dizer que...
+        \linebreak
+        \begin{minipage}[c]{0.5\linewidth}
+            \begin{center}
+                \begin{tikzpicture}[scale=0.5,transform shape, font=\Large]
+                    \tkzInit[xmin=0,xmax=12.6,ymin=-8,ymax=1]
+                    \tkzClip[space=1.0]
+
+                    \def\y0{1}
+                    \def\ka{6}
+                    \def\oma{1}
+                    \def\kb{5}
+                    \def\omb{2}
+
+                    \begin{scope}[shift={(0,0)}]
+                        \tkzDrawX{label=x}
+                        \tkzDrawY{label=y(x,t)}
+                        \tkzFct[domain=0:7*pi,color=gray, line width=1pt,samples=500]{\y0*cos(\ka*x)}
+                        \tkzFct[domain=0:7*pi,color=black, line width=1pt,samples=500]{\y0*cos(\kb*x)}
+                        \tkzDefPointByFct(pi)\tkzGetPoint{p1}
+                        \tkzDefPointByFct(2*pi)\tkzGetPoint{p1a}
+                        \tkzDefPointByFct(3*pi)\tkzGetPoint{p2a}
+                        \tkzDefPointByFct(4*pi)\tkzGetPoint{p3a}
+                        \tkzDefPointByFct(5*pi)\tkzGetPoint{p4a}
+                    \end{scope}
+
+                    \begin{scope}[shift={(0,-6)}]
+                        \tkzInit[xmin=0,xmax=12.6,ymin=-2,ymax=2]
+
+                        \tkzDrawX{label=x}
+
+                        \tkzFct[domain=0:7*pi,line width=1pt,samples=500]{2*\y0*cos(0.5*(\kb-\ka)*x)*cos(0.5*(\ka+\kb)*x)}
+                        \tkzDefPointByFct(pi)\tkzGetPoint{p2}
+                        \tkzDefPointByFct(2*pi)\tkzGetPoint{p1b}
+                        \tkzDefPointByFct(3*pi)\tkzGetPoint{p2b}
+                        \tkzDefPointByFct(4*pi)\tkzGetPoint{p3b}
+                        \tkzDefPointByFct(5*pi)\tkzGetPoint{p4b}
+
+                        \draw[dashed] (p1) -- (p2);
+                        \draw[dashed] (p1a) -- (p1b);
+                        \draw[dashed] (p2a) -- (p2b);
+                        \draw[dashed] (p3a) -- (p3b);
+                        \draw[dashed] (p4a) -- (p4b);
+                    
+                        \tkzText[below = 0.5](p2){A}
+                        \tkzText[below = 2.5](p1b){B}
+                        \tkzText[below = 0.5](p2b){C}
+                        \tkzText[below = 2.5](p3b){D}
+
+                    \end{scope}
+
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}
+
+        "
+quantum_physics,bohrs_model,001,Cálculo do trabalho de uma bateria em elétron-Volts,"A unidade de energia comumente utilizada em física atômica é o elétron-Volt (eV). Um elétron-Volt pode representar a energia do estado fundamental do átomo de hidrogênio, que equivale a -13,6 eV. Isso torna conveniente expressar a energia dos elétrons no átomo em elétron-Volts ao invés de Joule. Determine o trabalho que uma bateria de \num{7.01} \unit[per-mode = symbol]{\volt} realiza para produzir \num{2.06} \unit[per-mode = symbol]{\ampere} de corrente durante \num{12.8} \unit[per-mode = symbol]{\second}."
+quantum_physics,bohrs_model,002,Cálculo da energia cinética do átomo de hidrogênio após absorver um fóton,"Considere um átomo de hidrogênio no seu estado fundamental. Fornece a esse átomo uma quantidade de energia equivalente à \num{16.425} \unit[per-mode = symbol]{\electronvolt}. Calcule a sua energia cinética, considerando que parte da sua energia será absorvida pelo seu elétron."
+quantum_physics,bohrs_model,003,Cálculo da velocidade de um elétron no estado fundamental do átomo de hidrogênio,Determine a velocidade de um elétron que se encontra no estado estacionário n=\num{6}.
+quantum_physics,bohrs_model,004,Questão conceitual sobre o modelo atômico de Bohr,Marque a alternativa correta de acordo com o modelo atômico de Bohr.
+quantum_physics,bohrs_model,005,Questão conceitual sobre a radiação emitida pelo átomo de hidrogênio,"Considere um átomo de hidrogênio no seu estado fundamental. Ao receber uma quantidade de energia, o seu elétron salta para o próximo nível. Em seguida, ele retorna para o seu estado fundamental, emitindo um fóton neste processo. Determine o tipo de radiação emitida pelo átomo."
+quantum_physics,bohrs_model,006,Questão conceitual sobre o comprimento de onda do elétron no estado fundamental do átomo de hidrogênio,"De acordo com o modelo de Bohr, o elétron ao redor do átomo no estado fundamental possui uma velocidade da ordem de $7,1\times 10^5\;m/s$. Determine o comprimento de onda desse elétron. Seria possível esse elétron apresentar fenômenos ondulatórios como difração?"
+quantum_physics,schrodinger_equation,001,Questão conceitual sobre a energia da partícula livre,"Determine a energia E da partícula que possui a função de onda $\Psi(x,t)=Ae^{i(kx-\omega t)}$."
+quantum_physics,schrodinger_equation,002,Cálculo do momento do elétron livre,Determine o momento de um elétron livre que propaga na direção x com número de onda de \num{0.5793} \unit{\per\nano\metre}.
+quantum_physics,schrodinger_equation,003,Cálculo do módulo de um número complexo,"Considerando o número z = \num{8.0} +\num{100.0} i, determine $|z|^2$."
+quantum_physics,schrodinger_equation,004,Cálculo da energia do elétron livre,Determine a energia de um elétron livre que propaga na direção x com número de onda de \num{0.1585} \unit{\per\nano\metre}.
+quantum_physics,schrodinger_equation,005,Questão conceitual sobre a função de onda do elétron livre,Um elétron se move na direção x com comprimento de onda de de Broglie $\lambda$. Marque a alternativa abaixo que representa a sua função de onda.
+quantum_physics,potential_well,001,,"Considere a molécula de Hexatrieno
+        	\begin{align*}
+		        C=C-C=C-C=C
+	        \end{align*}
+            Sabendo que o comprimento de ligação C-C é aproximadamente 1,4 \AA, e que o seu estado fundamental se encontra no nível n=3, determine o comprimento de onda da radiação máxima emitida pela molécula.
+
+        "
+quantum_physics,potential_well,002,,"Duas moléculas de etileno podem se combinar para formar uma molécula de butadieno. Determine a energia de duas moléculas de etileno e uma de butadieno e verifique qual afirmação abaixo é verdadeira. (Dica: considere que o butadieno possui 4 elétrons livres, enquanto que o etileno possui apenas 2.)"
+quantum_physics,potential_well,003,,"Um elétron está livre para se movimentar ao longo de superfície na forma de um quadrado de lado L. Sabendo que pelo postulado de de Broglie $p_x = \hbar kx$ , $p_y = \hbar ky$ e que a função de onda deve ser nula nas extremidades do quadrado, determine a função de onda deste elétron."
+quantum_physics,potential_well,004,,"Considere um elétron confinado em uma cadeia linear de ligações C-C cujo comprimento de ligação é dado por \num{1.42} $\AA$. Se essa cadeia possui \num{26} átomos de carbono e ligações C-H de comprimento \num{1.09} $\AA$ em suas extremidades, determine o valor MÁXIMO do momento que esse elétron poderá ter no seu estado fundamental. (Dica: considere o elétron com comportamento semelhante a de uma corda vibrante de forma estacionária.)"
+quantum_physics,potential_well,005,,Considere um elétron confinado em um espaço de comprimento a=\num{11.75} \unit[per-mode = symbol]{\angstrom}. Determine a incerteza no valor do seu momento quando o elétron estiver no seu estado fundamental.
+quantum_physics,tunneling,001,,"Um elétron com energia cinética de \num{3.42} \unit[per-mode = symbol]{\electronvolt} incide em um potencial degrau de {50.0} \unit[per-mode = symbol]{\electronvolt}. Determine o alcance que ele poderá penetrar na região energeticamente proibida quando a sua probabilidade for {0.52} vezes do seu valor ao incidir no potencial degrau.
+        
+        "
+quantum_physics,tunneling,002,,"Em um dispositivo semicondutor, uma camada de óxido forma uma barreira com \num{0.13} \unit[per-mode = symbol]{\nano\metre} de largura e {10.0} \unit[per-mode = symbol]{\electronvolt} de altura. Elétrons chegam a barreira depois de serem acelerados por uma tensão de {2.65} \unit[per-mode = symbol]{\volt}. Que fração de elétrons incidentes conseguem atravessar a barreira por tunelamento?
+        
+        "
+quantum_physics,tunneling,003,,"Em um dispositivo semicondutor, uma camada de óxido forma uma barreira com \num{0.17} \unit[per-mode = symbol]{\nano\metre} de largura e {20.0} \unit[per-mode = symbol]{\electronvolt} de altura. Elétrons chegam a barreira depois de serem acelerados por uma tensão de {5.4} \unit[per-mode = symbol]{\volt}. Encontre a constante de penetração $\alpha$ (Dica: veja o formulário abaixo).
+        
+        "
+quantum_physics,quantum_oscillator,001,,A figura abaixo apresenta o espectro vibracional da molécula da água utilizando simulação computacional por dinâmica molecular. Determine a constante de força referente ao modo vibracional de estiramento simétrico $O\cdots H$.
+quantum_physics,quantum_oscillator,002,,Considere uma molécula poliatômica formada por \num{26} átomos. Determine a quantidade de modos normais associados ao movimento de vibração que essa molécula poderá ter.
+quantum_physics,quantum_oscillator,003,,O deslocamento quadrático médio $r_{msd}$ é uma medida que está relacionada com a capacidade de dispersão de uma molécula no meio. Determine o valor $r_{msd}$ do HBr que possui um modo vibracional equivalente à $2630\;cm^{-1}$.
+quantum_physics,quantum_oscillator,004,,Utilize a distribuição de Boltzmann de energias f(E) para estimar a fração de moléculas diatômicas no seu estado fundamental que possuem um modo vibracional equivalente à \num{2342.0} \unit{\per\centi\metre}. Considere que as moléculas estão em um ambiente à \num{2180.0} \unit[per-mode = symbol]{\kelvin}. (Dica: utilize a série geométrica $\sum_{i=1}^{\infty}x^i = (1-x)^{-1}$).
+quantum_physics,quantum_oscillator,005,,"A energia do oscilador quântico é dada por
+                \begin{equation}
+                    E = \left(n+\frac{1}{2}\right)\hbar\omega.
+                \end{equation}
+                Como consequência a energia do seu estado fundamental (n=0) é diferente de zero, chamada de energia de ponto zero. Marque a opção que melhor explica a existência da energia de ponto zero.
+        "
+quantum_physics,quantum_oscillator,006,,"A energia do oscilador quântico é dada por
+                \begin{equation}
+                    E = \left(n+\frac{1}{2}\right)\hbar\omega,
+                \end{equation}
+                onde $\omega = \sqrt{k/\mu}$. Determine a energia do fóton emitido quando o elétron faz uma transição do estado n+1 para o estado n qualquer.
+        "
+relativity,special_relativity,001,,Uma partícula é produzida a uma certa altitude da atmosfera terrestre a uma velocidade igual a \num{0.61} c decaindo em seguida em outras subpartículas depois de \num{2.6} \unit[per-mode = symbol]{\micro\second}. Determine o tempo que essa partícula duraria em um laboratório a uma velocidade muito menor que c antes do seu decaimento radioativo.
+relativity,special_relativity,002,,"Um astronauta numa futura estação espacial nota uma nave aproximando-se a 40\% da velocidade da luz. Em sentido oposto e numa trajetória paralela, ele observa um meteoróide indo de encontro à nave a 80\% da velocidade da luz. Com que velocidade os tripulantes da nave observam o meteoróide?"
