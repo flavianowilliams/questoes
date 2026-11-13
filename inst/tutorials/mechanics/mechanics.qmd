@@ -1,0 +1,61 @@
+---
+title: "Mecânica"
+author: "Flaviano Williams Fernandes"
+format:
+  pdf:
+    toc: true
+    pdf-engine: pdflatex
+    pdf-engine-opts: ["-shell-escape"]
+    documentclass: scrreprt
+    embed-resources: true
+    self-contained-math: true
+    include-in-header:
+      text: |
+        \usepackage[utf8]{inputenc}
+        \usepackage[portuguese]{babel}
+        \usepackage{multicol}
+        \usepackage{graphicx}
+        \usepackage{amsmath}
+        \usepackage{xcolor}
+        \usepackage{tikz,pgfplots,tikz-3dplot,bm}
+        \usepackage{circuitikz}
+        \usepackage{tkz-base}
+        \usepackage{tkz-fct}
+        \usepackage{tkz-euclide}
+        \usepackage[a4paper, portrait, margin=2cm, includefoot]{geometry}
+        \usepackage[output-decimal-marker={,}]{siunitx}
+        \usetikzlibrary{arrows,3d,calc,automata,positioning,shadows,math,fit,shapes}
+        \usetikzlibrary{patterns,calc,hobby,optics}
+        \tikzset{>=stealth, thick, global scale/.style={scale=#1,every node/.style={scale=#1}}}
+        \tikzset{midarrow/.style={postaction={decorate,decoration={markings,mark=at position .5 with {\arrow[#1]{stealth}}}}}}
+        \tikzset{midarrowinv/.style={postaction={decorate,decoration={markings,mark=at position .5 with {\arrowreversed[#1]{stealth}}}}}}
+        \setlength{\columnsep}{1cm}
+        \makeindex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#
+database <- read.csv(file = here::here("data/database.csv"))
+#
+database <- database[database$module == "mechanics", ]
+```
+
+```{r, tabela}
+#| echo: FALSE
+#| output: "asis"
+#
+  dados_filtrado <- database |> 
+    dplyr::mutate(id = seq(1, nrow(database)))
+  # 
+  cat("# ", "mechanics", "\n\n")
+  #
+  for (j in 1:nrow(dados_filtrado)) {
+    cat("## ", dados_filtrado$title[j], "\n\n")
+    cat("Código: ", dados_filtrado$codigo[j], "\n\n")
+    cat("Code: ", dados_filtrado$code[j], "\n\n")
+    cat("Submodule: ", dados_filtrado$submodule[j], "\n\n")
+    cat(dados_filtrado$text[j], "\n\n")
+  }
+  cat("{{< pagebreak >}}", "\n\n")
+```
